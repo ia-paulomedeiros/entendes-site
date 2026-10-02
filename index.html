@@ -23,6 +23,7 @@
   <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="preload" href="/fontes/cormorant-garamond-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="/imagens/filipe-eunuco-claro-1600.webp" imagesrcset="/imagens/filipe-eunuco-claro-800.webp 800w, /imagens/filipe-eunuco-claro-1600.webp 1600w" imagesizes="100vw" media="(prefers-color-scheme: light)">
   <link rel="stylesheet" href="/estilo.css">
 </head>
 <body>
@@ -39,19 +40,30 @@
   </header>
 
   <main id="conteudo">
-    <section class="estreita hero" aria-labelledby="titulo">
-      <svg viewBox="40 100 432 400" role="img" aria-label="Símbolo do Entendes: uma Bíblia aberta com um ponto de interrogação"><path fill="var(--capa)" d="M256 156 C 206 124, 128 116, 52 132 L 52 392 C 128 378, 206 386, 256 420 C 306 386, 384 378, 460 392 L 460 132 C 384 116, 306 124, 256 156 Z"/><path fill="var(--pagina)" d="M249 150 C 206 122, 140 114, 72 126 L 72 362 C 140 350, 206 358, 249 388 Z"/><path fill="var(--pagina)" d="M263 150 C 306 122, 372 114, 440 126 L 440 362 C 372 350, 306 358, 263 388 Z"/><path fill="none" stroke="var(--pagina)" stroke-width="5" d="M72 374 C 140 362, 206 370, 249 400 M263 400 C 306 370, 372 362, 440 374"/><path fill="none" stroke="var(--capa)" stroke-width="9" stroke-linecap="round" d="M106 174 Q 161 170, 216 180"/><path fill="none" stroke="var(--capa)" stroke-width="9" stroke-linecap="round" d="M106 204 Q 161 200, 216 210"/><path fill="none" stroke="var(--capa)" stroke-width="9" stroke-linecap="round" d="M106 234 Q 161 230, 216 240"/><path fill="none" stroke="var(--capa)" stroke-width="9" stroke-linecap="round" d="M106 264 Q 161 260, 216 270"/><path fill="none" stroke="var(--capa)" stroke-width="9" stroke-linecap="round" d="M106 294 Q 161 290, 216 300"/><path fill="none" stroke="var(--capa)" stroke-width="9" stroke-linecap="round" d="M106 324 Q 137 320, 168 330"/><path fill="var(--capa)" d="M341.7 187.4Q340.9 194.5 338.2 199.1Q335.5 203.6 328 203.6Q321.8 203.6 318.8 200.3Q315.8 196.9 315.8 192.3Q315.8 183.7 325.9 177.5Q336.1 171.2 350.9 171.2Q367.9 171.2 379.4 179.6Q390.9 188 390.9 203.4Q390.9 213.6 386 220.4Q381.2 227.1 371.4 235.8L366.6 239.8Q357.9 247.7 354 255.5Q350.1 263.3 350.1 273Q350.1 278.2 351.7 287.6Q352 288.4 350 288.8Q347.9 289.2 347.7 288.4Q344.4 281.1 342.5 271.8Q340.7 262.5 340.7 256Q340.7 247.7 343.5 242.4Q346.3 237.1 352 230.4Q358.2 223.1 361.4 216.7Q364.7 210.4 364.7 200.1Q364.7 189.3 360.9 182.6Q357.1 175.8 350.6 175.8Q345.8 175.8 344 178.9Q342.3 182 341.7 187.4ZM332.6 328.1Q332.6 321.6 336.6 317.9Q340.7 314.1 347.4 314.1Q354.4 314.1 358.2 317.9Q362 321.6 362 328.1Q362 335.1 358.2 339.1Q354.4 343 347.4 343Q340.7 343 336.6 338.9Q332.6 334.9 332.6 328.1Z"/><path fill="var(--capa)" d="M245 396 L 267 396 L 267 488 L 256 474 L 245 488 Z"/></svg>
-      <h1 id="titulo">Entendes tu o que lês?</h1>
-      <p class="referencia">Atos 8.30, Almeida 1911</p>
-      <p class="subtitulo">Veja, lado a lado, como as tradições cristãs leem o mesmo texto da Bíblia, sempre com as fontes.</p>
-      <div class="acoes">
-        <a class="botao" href="https://www.entendes.app">Abrir o Entendes</a>
-        <a href="#nome">Por que esse nome</a>
+    <section class="hero" aria-labelledby="titulo">
+      <picture class="fundo">
+        <source media="(prefers-color-scheme: dark)" srcset="/imagens/filipe-eunuco-escuro-800.webp 800w, /imagens/filipe-eunuco-escuro-1600.webp 1600w" sizes="100vw">
+        <img src="/imagens/filipe-eunuco-claro-1600.webp" srcset="/imagens/filipe-eunuco-claro-800.webp 800w, /imagens/filipe-eunuco-claro-1600.webp 1600w" sizes="100vw" width="1600" height="1288" alt="" fetchpriority="high">
+      </picture>
+      <div class="estreita hero-conteudo">
+        <svg viewBox="40 100 432 400" role="img" aria-label="Símbolo do Entendes: uma Bíblia aberta com um ponto de interrogação"><path fill="var(--capa)" d="M256 156 C 206 124, 128 116, 52 132 L 52 392 C 128 378, 206 386, 256 420 C 306 386, 384 378, 460 392 L 460 132 C 384 116, 306 124, 256 156 Z"/><path fill="var(--pagina)" d="M249 150 C 206 122, 140 114, 72 126 L 72 362 C 140 350, 206 358, 249 388 Z"/><path fill="var(--pagina)" d="M263 150 C 306 122, 372 114, 440 126 L 440 362 C 372 350, 306 358, 263 388 Z"/><path fill="none" stroke="var(--pagina)" stroke-width="5" d="M72 374 C 140 362, 206 370, 249 400 M263 400 C 306 370, 372 362, 440 374"/><path fill="none" stroke="var(--capa)" stroke-width="9" stroke-linecap="round" d="M106 174 Q 161 170, 216 180"/><path fill="none" stroke="var(--capa)" stroke-width="9" stroke-linecap="round" d="M106 204 Q 161 200, 216 210"/><path fill="none" stroke="var(--capa)" stroke-width="9" stroke-linecap="round" d="M106 234 Q 161 230, 216 240"/><path fill="none" stroke="var(--capa)" stroke-width="9" stroke-linecap="round" d="M106 264 Q 161 260, 216 270"/><path fill="none" stroke="var(--capa)" stroke-width="9" stroke-linecap="round" d="M106 294 Q 161 290, 216 300"/><path fill="none" stroke="var(--capa)" stroke-width="9" stroke-linecap="round" d="M106 324 Q 137 320, 168 330"/><path fill="var(--capa)" d="M341.7 187.4Q340.9 194.5 338.2 199.1Q335.5 203.6 328 203.6Q321.8 203.6 318.8 200.3Q315.8 196.9 315.8 192.3Q315.8 183.7 325.9 177.5Q336.1 171.2 350.9 171.2Q367.9 171.2 379.4 179.6Q390.9 188 390.9 203.4Q390.9 213.6 386 220.4Q381.2 227.1 371.4 235.8L366.6 239.8Q357.9 247.7 354 255.5Q350.1 263.3 350.1 273Q350.1 278.2 351.7 287.6Q352 288.4 350 288.8Q347.9 289.2 347.7 288.4Q344.4 281.1 342.5 271.8Q340.7 262.5 340.7 256Q340.7 247.7 343.5 242.4Q346.3 237.1 352 230.4Q358.2 223.1 361.4 216.7Q364.7 210.4 364.7 200.1Q364.7 189.3 360.9 182.6Q357.1 175.8 350.6 175.8Q345.8 175.8 344 178.9Q342.3 182 341.7 187.4ZM332.6 328.1Q332.6 321.6 336.6 317.9Q340.7 314.1 347.4 314.1Q354.4 314.1 358.2 317.9Q362 321.6 362 328.1Q362 335.1 358.2 339.1Q354.4 343 347.4 343Q340.7 343 336.6 338.9Q332.6 334.9 332.6 328.1Z"/><path fill="var(--capa)" d="M245 396 L 267 396 L 267 488 L 256 474 L 245 488 Z"/></svg>
+        <h1 id="titulo">Entendes tu o que lês?</h1>
+        <p class="referencia">Atos 8.30, Almeida 1911</p>
+        <p class="subtitulo">Veja, lado a lado, como as tradições cristãs leem o mesmo texto da Bíblia, sempre com as fontes.</p>
+        <div class="acoes">
+          <a class="botao" href="https://www.entendes.app">Abrir o Entendes</a>
+          <a href="#nome">Por que esse nome</a>
+        </div>
       </div>
     </section>
 
     <section class="bloco" id="nome" aria-labelledby="t-nome">
-      <div class="estreita">
+      <div class="largura nome-grade">
+        <figure class="obra">
+          <img src="/imagens/rembrandt-batismo-eunuco-960.webp" srcset="/imagens/rembrandt-batismo-eunuco-600.webp 600w, /imagens/rembrandt-batismo-eunuco-960.webp 960w" sizes="(min-width: 860px) 400px, (min-width: 560px) 480px, 100vw" width="960" height="1269" loading="lazy" decoding="async" alt="Pintura de Rembrandt: o eunuco etíope, ajoelhado e com as mãos no peito, diante de Filipe, que estende a mão. Atrás, um servo segura o livro aberto; ao fundo estão a carruagem, os cavalos e a comitiva.">
+          <figcaption>Rembrandt, <cite>O batismo do eunuco</cite>, 1626. Museum Catharijneconvent, Utrecht. Domínio público.</figcaption>
+        </figure>
+        <div class="nome-texto">
         <h2 id="t-nome">O nome</h2>
         <p>Na estrada para Gaza, um oficial etíope voltava de Jerusalém lendo o profeta Isaías. Filipe se aproximou e perguntou se ele entendia o que lia. A resposta foi simples e honesta.</p>
         <figure class="citacao">
@@ -59,6 +71,7 @@
           <figcaption>Atos 8.30-31, Almeida 1911 (domínio público), com a grafia original.</figcaption>
         </figure>
         <p>O Entendes quer caminhar ao lado de quem lê. Ele não dá a palavra final. Mostra como a Igreja, em suas tradições, entendeu aquele texto ao longo dos séculos.</p>
+        </div>
       </div>
     </section>
 
@@ -103,7 +116,11 @@
     </section>
 
     <section class="bloco convite" aria-labelledby="t-convite">
-      <div class="estreita">
+      <picture class="fundo">
+        <source media="(prefers-color-scheme: dark)" srcset="/imagens/biblia-1534-escuro-600.webp 600w, /imagens/biblia-1534-escuro-960.webp 960w" sizes="100vw">
+        <img src="/imagens/biblia-1534-claro-960.webp" srcset="/imagens/biblia-1534-claro-600.webp 600w, /imagens/biblia-1534-claro-960.webp 960w" sizes="100vw" width="960" height="729" alt="" loading="lazy" decoding="async">
+      </picture>
+      <div class="estreita convite-conteudo">
         <h2 id="t-convite">Leia com companhia</h2>
         <p>O Entendes é gratuito para começar e funciona no navegador e no celular.</p>
         <a class="botao" href="https://www.entendes.app">Abrir o Entendes</a>
@@ -121,6 +138,10 @@
         <a href="https://www.entendes.app/termos">Termos</a>
       </div>
       <p class="verso">“Entendes tu o que lês?” Atos 8.30</p>
+      <p class="creditos">Créditos das imagens, todas em domínio público, do Wikimedia Commons:
+        <a href="https://commons.wikimedia.org/wiki/File:Schnorr_von_Carolsfeld_Bibel_in_Bildern_1860_229.png">Julius Schnorr von Carolsfeld, Filipe e o eunuco, <cite>Die Bibel in Bildern</cite>, 1860</a>;
+        <a href="https://commons.wikimedia.org/wiki/File:Rembrandt,_The_Baptism_of_the_Eunuch,_1626,_Museum_Catharijneconvent,_Utrecht.jpg">Rembrandt, <cite>O batismo do eunuco</cite>, 1626, Museum Catharijneconvent</a>;
+        <a href="https://commons.wikimedia.org/wiki/File:Lutherbibel.jpg">página de rosto da Bíblia de Lutero, 1534 (foto de Torsten Schleese)</a>.</p>
     </div>
   </footer>
 </body>

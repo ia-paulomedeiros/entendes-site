@@ -18,6 +18,18 @@ O site é HTML e CSS estáticos:
 | `favicon.*`, `apple-touch-icon.png` | ícones, iguais aos do app |
 | `robots.txt`, `sitemap.xml` | para os buscadores |
 
+## Imagens
+
+Todas são de domínio público e vêm do Wikimedia Commons. A licença foi conferida na página de cada arquivo em 02/10/2026, e nenhuma tem restrição NC. Nenhuma foi gerada por IA. Ficam em `imagens/`, convertidas para WebP em dois tamanhos.
+
+| Arquivo | Origem | Licença no Commons | Uso |
+|---|---|---|---|
+| `filipe-eunuco-{claro,escuro}-{800,1600}.webp` | [Julius Schnorr von Carolsfeld, *Die Bibel in Bildern*, 1860, prancha 229](https://commons.wikimedia.org/wiki/File:Schnorr_von_Carolsfeld_Bibel_in_Bildern_1860_229.png) | `{{PD-Art|PD-old-auto-expired|deathyear=1872}}` | fundo do topo, sem moldura, tingido nas cores do tema |
+| `rembrandt-batismo-eunuco-{600,960}.webp` | [Rembrandt, *O batismo do eunuco*, 1626, Museum Catharijneconvent](https://commons.wikimedia.org/wiki/File:Rembrandt,_The_Baptism_of_the_Eunuch,_1626,_Museum_Catharijneconvent,_Utrecht.jpg) | `{{PD-Art|PD-old-100-expired}}` | seção "O nome" |
+| `biblia-1534-{claro,escuro}-{600,960}.webp` | [Página de rosto da Bíblia de Lutero, 1534; foto de Torsten Schleese](https://commons.wikimedia.org/wiki/File:Lutherbibel.jpg) | `{{PD-self}}` (o fotógrafo liberou a foto) | fundo bem esmaecido do chamado final |
+
+Os créditos também aparecem no rodapé da página.
+
 O símbolo vem de `src/lib/simbolo.ts`, no repositório do app. Se ele mudar, troque o `<svg>` das páginas e os ícones.
 
 ## Publicar no GitHub Pages
