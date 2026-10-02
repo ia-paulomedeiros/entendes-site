@@ -1,0 +1,101 @@
+/* Entendes — site de apresentação. Mesmas cores e fontes do app. Sem rastreadores, sem cookies. */
+@font-face { font-family: "Cormorant Garamond"; font-style: normal; font-weight: 600; font-display: swap; src: url("/fontes/cormorant-garamond-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-style: italic; font-weight: 500; font-display: swap; src: url("/fontes/cormorant-garamond-latin-500-italic.woff2") format("woff2"); }
+@font-face { font-family: "Source Sans 3"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fontes/source-sans-3-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Source Sans 3"; font-style: normal; font-weight: 600; font-display: swap; src: url("/fontes/source-sans-3-latin-600-normal.woff2") format("woff2"); }
+
+:root {
+  color-scheme: light dark;
+  --fundo: #f6f1e7;
+  --cartao: #fffdf8;
+  --tinta: #221d17;
+  --suave: #6a5642;
+  --borda: #ddd3c2;
+  --vinho: #7c2d22;
+  --sobre-vinho: #fffdf8;
+  --capa: #7c2d22;
+  --pagina: #f6f1e7;
+  --serifa: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --sans: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo: #1a1612;
+    --cartao: #231e18;
+    --tinta: #efe7d8;
+    --suave: #b9ab95;
+    --borda: #3a322a;
+    --vinho: #c9877a;
+    --sobre-vinho: #1a1612;
+    --capa: #c9877a;
+    --pagina: #1a1612;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { margin: 0; background: var(--fundo); color: var(--tinta); font: 400 1.0625rem/1.65 var(--sans); }
+a { color: var(--vinho); text-underline-offset: 3px; }
+a:focus-visible, .botao:focus-visible { outline: 3px solid var(--vinho); outline-offset: 3px; border-radius: 6px; }
+h1, h2, h3 { font-family: var(--serifa); font-weight: 600; line-height: 1.1; margin: 0; }
+p { margin: 0; }
+
+.pular { position: absolute; left: -9999px; top: 0; }
+.pular:focus { left: 16px; top: 16px; background: var(--cartao); padding: 8px 12px; z-index: 10; }
+
+.largura { width: min(100% - 32px, 960px); margin-inline: auto; }
+.estreita { width: min(100% - 32px, 680px); margin-inline: auto; }
+
+.topo { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 18px; }
+.marca { display: inline-flex; align-items: center; gap: 10px; color: var(--tinta); text-decoration: none; font: 600 1.6rem/1 var(--serifa); }
+.marca svg { width: 36px; height: 33px; }
+.topo nav a { color: var(--suave); text-decoration: none; font-size: 0.95rem; }
+.topo nav a:hover { color: var(--tinta); }
+
+.hero { text-align: center; padding-block: 32px 72px; }
+.hero svg { width: min(240px, 60vw); height: auto; display: block; margin: 0 auto 28px; }
+.hero h1 { font-size: clamp(2.6rem, 8vw, 4.4rem); letter-spacing: -0.01em; }
+.referencia { margin-top: 10px; color: var(--suave); font-size: 0.95rem; }
+.hero .subtitulo { margin: 22px auto 0; max-width: 34em; font-size: clamp(1.1rem, 2.6vw, 1.3rem); }
+.acoes { margin-top: 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 14px 24px; }
+.botao { display: inline-flex; align-items: center; min-height: 48px; padding: 0 26px; border-radius: 8px; background: var(--vinho); color: var(--sobre-vinho); font-weight: 600; text-decoration: none; }
+.botao:hover { filter: brightness(1.08); }
+
+section.bloco { padding-block: 64px; border-top: 1px solid var(--borda); }
+.bloco h2 { font-size: clamp(2rem, 5vw, 2.6rem); margin-bottom: 20px; }
+.bloco p + p { margin-top: 14px; }
+.citacao { margin: 24px 0; padding: 20px 22px; background: var(--cartao); border: 1px solid var(--borda); border-radius: 10px; }
+.citacao blockquote { margin: 0; font: italic 500 1.4rem/1.45 var(--serifa); }
+.citacao figcaption { margin-top: 10px; color: var(--suave); font-size: 0.9rem; }
+
+.passos { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); counter-reset: passo; }
+.passos li { background: var(--cartao); border: 1px solid var(--borda); border-radius: 10px; padding: 20px; counter-increment: passo; }
+.passos li::before { content: counter(passo); display: block; font: 600 2rem/1 var(--serifa); color: var(--vinho); margin-bottom: 8px; }
+.passos h3 { font-size: 1.45rem; margin-bottom: 6px; }
+
+.tradicoes { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.tradicoes li { border-left: 3px solid var(--vinho); padding: 4px 0 4px 14px; }
+.tradicoes strong { display: block; font: 600 1.3rem/1.2 var(--serifa); }
+.tradicoes span { color: var(--suave); font-size: 0.95rem; }
+.nota { margin-top: 20px; color: var(--suave); font-size: 0.95rem; }
+
+.principios { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 14px; }
+.principios li { display: grid; grid-template-columns: 28px 1fr; gap: 10px; align-items: start; }
+.principios li::before { content: "✓"; color: var(--vinho); font-weight: 600; font-size: 1.15rem; line-height: 1.5; }
+.principios strong { font-weight: 600; }
+
+.convite { text-align: center; }
+.convite p { margin: 0 auto 24px; max-width: 30em; }
+
+.rodape { border-top: 1px solid var(--borda); padding-block: 36px 48px; color: var(--suave); font-size: 0.95rem; }
+.rodape .linhas { display: flex; flex-wrap: wrap; gap: 10px 22px; }
+.rodape a { color: var(--suave); }
+.rodape a:hover { color: var(--tinta); }
+.rodape .verso { margin-top: 14px; font: italic 500 1.1rem/1.4 var(--serifa); }
+
+@media (max-width: 560px) {
+  .topo nav { display: none; }
+  .hero { padding-top: 16px; }
+  section.bloco { padding-block: 48px; }
+}
