@@ -272,19 +272,83 @@ CREDITOS = [
         "origem": "Flickr",
         "arquivos": "igreja-zlatari-bucareste",
     },
+    # Art Institute of Chicago: is_public_domain = true na API (conferido em 03/10/2026); o museu
+    # publica essas imagens em CC0. O "São Jerônimo penitente" ficou de fora (crucifixo com Cristo).
+    {
+        "id": "davi",
+        "texto": "Rembrandt, Davi em oração, 1652, gravura, Art Institute of Chicago",
+        "obra": "Davi em oração",
+        "url": "https://www.artic.edu/artworks/48960",
+        "licenca": "domínio público (CC0)",
+        "origem": "Art Institute of Chicago",
+        "arquivos": "rembrandt-davi-oracao",
+    },
+    {
+        "id": "pedro",
+        "texto": "Jusepe de Ribera, São Pedro penitente, c. 1630, Art Institute of Chicago",
+        "obra": "São Pedro penitente",
+        "url": "https://www.artic.edu/artworks/120172",
+        "licenca": "domínio público (CC0)",
+        "origem": "Art Institute of Chicago",
+        "arquivos": "ribera-pedro-penitente",
+    },
+    {
+        "id": "salomao",
+        "texto": "Mestre do Grupo da Adoração de Antuérpia, O rei Salomão recebe a rainha de Sabá, 1515-20, Art Institute of Chicago",
+        "obra": "O rei Salomão recebe a rainha de Sabá",
+        "url": "https://www.artic.edu/artworks/111670",
+        "licenca": "domínio público (CC0)",
+        "origem": "Art Institute of Chicago",
+        "arquivos": "salomao-rainha-saba",
+    },
+    {
+        "id": "expulsao",
+        "texto": "Lucas van Leyden, A expulsão do Paraíso, 1510, gravura, Art Institute of Chicago",
+        "obra": "A expulsão do Paraíso",
+        "url": "https://www.artic.edu/artworks/106566",
+        "licenca": "domínio público (CC0)",
+        "origem": "Art Institute of Chicago",
+        "arquivos": "lucas-van-leyden-expulsao",
+    },
 ]
 
-# Imagem de cada tradição (uma por página, no máximo)
-IMAGENS_TRADICAO = {
-    "ortodoxa": {
-        "credito": "zlatari",
-        "base": "/imagens/igreja-zlatari-bucareste",
-        "larguras": (480, 768),
-        "altura_768": 1024,
+# Imagens das páginas internas (uma por página, no máximo). Arquivos em imagens/<base>-<largura>.webp.
+IMAGENS = {
+    "zlatari": {
+        "base": "/imagens/igreja-zlatari-bucareste", "larguras": (480, 768), "altura_768": 1024,
         "alt": "Fachada de uma igreja ortodoxa romena com quatro cúpulas cinzentas encimadas por cruzes, arcos de tijolo aparente e um pórtico na entrada.",
         "legenda": "Igreja ortodoxa de Zlătari, em Bucareste (Romênia), conhecida pelas relíquias de São Cipriano. Foto de M. Cristian-Ioan, 2005",
     },
+    "davi": {
+        "base": "/imagens/rembrandt-davi-oracao", "larguras": (480, 768), "altura_768": 1143,
+        "alt": "Gravura de Rembrandt: o rei Davi, de costas, ajoelhado junto a uma cama com dossel, reza com as mãos postas; a harpa está no chão, à frente.",
+        "legenda": "Rembrandt, Davi em oração, 1652. A tradição atribui o Salmo 51 a Davi",
+    },
+    "pedro": {
+        "base": "/imagens/ribera-pedro-penitente", "larguras": (480, 768), "altura_768": 998,
+        "alt": "Pintura de Ribera: São Pedro, idoso e de barba branca, olha para o alto, com uma mão no peito e a outra erguida, sobre fundo escuro.",
+        "legenda": "Jusepe de Ribera, São Pedro penitente, c. 1630",
+    },
+    "salomao": {
+        "base": "/imagens/salomao-rainha-saba", "larguras": (480, 768), "altura_768": 1048,
+        "alt": "Pintura: a rainha de Sabá, ajoelhada e de vestido claro, oferece um vaso de ouro ao rei Salomão, sentado num palácio de colunas; atrás, damas e cortesãos.",
+        "legenda": "O rei Salomão recebe a rainha de Sabá, c. 1515-20 (detalhe). A rainha veio pôr Salomão à prova com perguntas difíceis (1 Reis 10.1)",
+    },
+    "expulsao": {
+        "base": "/imagens/lucas-van-leyden-expulsao", "larguras": (480, 768), "altura_768": 1051,
+        "alt": "Gravura de Lucas van Leyden: Adão, com uma enxada ao ombro, e Eva, com o filho no colo, caminham juntos para fora do jardim.",
+        "legenda": "Lucas van Leyden, Adão e Eva depois da expulsão do Paraíso, 1510",
+    },
 }
+IMAGEM_TRADICAO = {"ortodoxa": "zlatari"}
+IMAGEM_ESTUDO = {
+    "pecado-original": "expulsao",
+    "romanos-5-12": "expulsao",
+    "genesis-3-15": "expulsao",
+    "salmos-51-5": "davi",
+    "confissao-e-perdao": "pedro",
+}
+IMAGEM_PAGINA = {"/como-funciona/": "salomao"}
 
 # ------------------------------------------------------------------ peças das páginas
 
@@ -362,7 +426,7 @@ def rodape() -> str:
       <a href="{APP}/termos">Termos</a>
     </div>
     <p class="verso">“Entendes tu o que lês?” Atos 8.30</p>
-    <p class="creditos">Imagens em domínio público: {"; ".join(f'<a href="{esc(c["url"])}">{esc(c["texto"])}</a> ({esc(c["origem"])}{", " + esc(c["licenca"]) if c["origem"] != "Wikimedia Commons" else ""})' for c in CREDITOS)}.</p>
+    <p class="creditos">Imagens em domínio público: {"; ".join(f'<a href="{esc(c["url"])}">{esc(c["texto"])}</a> ({esc(c["origem"])}{", " + esc(c["licenca"]) if c["origem"] == "Flickr" else ""})' for c in CREDITOS)}.</p>
   </div>
 </footer>"""
 
@@ -629,6 +693,7 @@ def pagina_estudo(site: Site, e: dict) -> str:
   <p class="lead">{esc(resumo)}</p>
   <div class="acoes esquerda">{botao_app(url_app, "Ler o estudo completo no app")}</div>
 </div>
+{figura(IMAGEM_ESTUDO.get(e["slug"]))}
 <div class="duas-colunas">
   <section aria-labelledby="t-refs"><h2 id="t-refs">Referências</h2><ul class="refs-lista">{refs}</ul></section>
   <section aria-labelledby="t-trads"><h2 id="t-trads">Tradições comparadas</h2><ul class="trads-lista">{"".join(trads)}</ul></section>
@@ -678,14 +743,15 @@ def pagina_tradicoes(site: Site) -> str:
     return pagina("/tradicoes/", "Tradições", cortar(f"As tradições cristãs no Entendes e as fontes de cada uma: {nomes}."), corpo)
 
 
-def figura_tradicao(tid: str) -> str:
-    img = IMAGENS_TRADICAO.get(tid)
+def figura(chave: str | None) -> str:
+    """Imagem da página, com legenda, link para a origem e a licença."""
+    img = IMAGENS.get(chave or "")
     if not img:
         return ""
-    c = next(c for c in CREDITOS if c["id"] == img["credito"])
+    c = next(c for c in CREDITOS if c["id"] == chave)
     w1, w2 = img["larguras"]
     srcset = f'{img["base"]}-{w1}.webp {w1}w, {img["base"]}-{w2}.webp {w2}w'
-    return f"""<figure class="obra foto-tradicao">
+    return f"""<figure class="obra foto-pagina">
   <img src="{img["base"]}-{w2}.webp" srcset="{srcset}" sizes="(min-width: 720px) 340px, 100vw" width="{w2}" height="{img["altura_768"]}" loading="lazy" decoding="async" alt="{esc(img["alt"])}">
   <figcaption>{esc(img["legenda"])}. <a href="{esc(c["url"])}">{esc(c["origem"])}</a>, {esc(c["licenca"])}.</figcaption>
 </figure>"""
@@ -709,7 +775,7 @@ def pagina_tradicao(site: Site, t: dict) -> str:
     if t["status"] == "acervo_em_construcao":
         aviso = '<p class="aviso grande">Acervo em construção: por enquanto, só material histórico em domínio público.</p>'
     sub_txt = f'<p class="sobrelinha">Inclui: {esc(juntar(subs))}</p>' if subs else ""
-    figura = figura_tradicao(t["id"])
+    imagem = figura(IMAGEM_TRADICAO.get(t["id"]))
     corpo = f"""<div class="estreita pagina">
 {migalhas(("Início", "/"), ("Tradições", "/tradicoes/"), (t["nome"], None))}
 <div class="cabeca-pagina">
@@ -718,7 +784,7 @@ def pagina_tradicao(site: Site, t: dict) -> str:
   {sub_txt}{aviso}
   <p class="lead">Nos estudos do Entendes, a tradição {esc(t["nome"])} é representada pelos próprios documentos e autores do acervo. Cada afirmação aponta para o trecho de onde veio.</p>
 </div>
-{figura}
+{imagem}
 <section aria-labelledby="t-obras">
   <h2 id="t-obras">Principais documentos e autores no acervo</h2>
   <ul class="obras-lista">{itens_obras}</ul>
@@ -741,6 +807,7 @@ def pagina_como_funciona(site: Site) -> str:
     corpo = f"""<div class="estreita pagina">
 {migalhas(("Início", "/"), ("Como funciona", None))}
 {cabeca_pagina("Como funciona", "O Entendes compara como as tradições cristãs leem a Bíblia. Cada leitura vem de uma fonte que você pode abrir e conferir.")}
+{figura(IMAGEM_PAGINA.get("/como-funciona/"))}
 <ol class="passos lista-passos">
   <li><h2>Escolha um texto ou tema</h2><p>Um versículo, uma passagem ou um assunto, como batismo, graça ou Maria. Você também pode buscar no acervo com as suas palavras.</p></li>
   <li><h2>Veja as leituras lado a lado</h2><p>Cada tradição aparece na sua própria seção, na mesma ordem e com o mesmo cuidado. Antes delas, aparecem as raízes comuns, como os credos antigos. Depois, o que as tradições têm em comum e onde elas se afastam.</p></li>

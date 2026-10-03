@@ -1217,6 +1217,140 @@
  ],
  "estudos": [
   {
+   "slug": "pecado-original",
+   "versao": 1,
+   "tipo": "tema",
+   "titulo": "Pecado original nas tradições cristãs",
+   "tema": "Pecado original",
+   "referencias": [
+    "ROM.5.12",
+    "PSA.51.5",
+    "GEN.3.6",
+    "EPH.2.3",
+    "1CO.15.22"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-03",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-001",
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Concílio de Trento, a Confissão Ortodoxa, os Artigos de Esmalcalde, Charles Hodge, John Wesley e a Segunda Confissão de Londres ligam, com Romanos 5.12, a entrada do pecado e da morte em toda a humanidade ao pecado de Adão.",
+      "Trento, a Confissão Ortodoxa, a Fórmula de Concórdia, o Catecismo Maior de Westminster e a Segunda Confissão de Londres associam a transmissão desse pecado à concepção e ao nascimento."
+     ],
+     "fontes": [
+      "CAT-001",
+      "CAT-002",
+      "CNF-001",
+      "COM-008",
+      "LUT-003",
+      "ORT-006",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Na leitura de Romanos 5.12, Haydock e Wesley entendem que todos pecaram em Adão, Hodge fala do pecado de Adão como legal e efetivamente nosso, e Crisóstomo explica a expressão no sentido de que todos se tornaram mortais a partir dele.",
+      "Sobre a vontade depois da queda, a Confissão Ortodoxa diz que ela ficou mais inclinada ao mal que ao bem, enquanto o Catecismo Maior de Westminster fala de uma natureza inclinada a todo mal e os Artigos de Esmalcalde rejeitam a doutrina de que as forças naturais permaneceram íntegras e de que haja livre-arbítrio natural para fazer o bem."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
    "slug": "confissao-e-perdao",
    "versao": 1,
    "tipo": "tema",

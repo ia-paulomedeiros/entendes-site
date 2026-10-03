@@ -48,7 +48,7 @@ git add -A && git commit -m "Site: estudos de <data>" && git push
 
 ## Imagens
 
-Todas são de domínio público, do Wikimedia Commons ou do Flickr. A licença foi conferida na página de cada arquivo, e nenhuma tem restrição NC. Nenhuma foi gerada por IA, e nenhuma representa Deus ou Cristo. Ficaram de fora: a foto do interior do Mosteiro de Sinaia (afrescos com Cristo) e, por enquanto, as obras do Art Institute of Chicago (a rede do ambiente ainda não chega a `www.artic.edu`; entram depois, com a checagem de neutralidade). Ficam em `imagens/`, convertidas para WebP em dois tamanhos.
+Todas são de domínio público, do Wikimedia Commons ou do Flickr. A licença foi conferida na página de cada arquivo, e nenhuma tem restrição NC. Nenhuma foi gerada por IA, e nenhuma representa Deus ou Cristo. Ficaram de fora, pela regra de neutralidade: a foto do interior do Mosteiro de Sinaia (afrescos com Cristo) e a *Paisagem com São Jerônimo penitente* (Art Institute of Chicago), em que o santo segura um crucifixo com Cristo. As imagens do Art Institute são baixadas com o cabeçalho `AIC-User-Agent: Entendes (contato@entendes.com.br)`, como o museu pede na documentação da API. A imagem de cada página fica em `IMAGENS`, `IMAGEM_ESTUDO`, `IMAGEM_TRADICAO` e `IMAGEM_PAGINA`, em `scripts/gerar_site.py` (uma por página, no máximo). Ficam em `imagens/`, convertidas para WebP em dois tamanhos.
 
 | Arquivo | Origem | Licença no Commons | Uso |
 |---|---|---|---|
@@ -56,6 +56,10 @@ Todas são de domínio público, do Wikimedia Commons ou do Flickr. A licença f
 | `rembrandt-batismo-eunuco-{600,960}.webp` | [Rembrandt, *O batismo do eunuco*, 1626, Museum Catharijneconvent](https://commons.wikimedia.org/wiki/File:Rembrandt,_The_Baptism_of_the_Eunuch,_1626,_Museum_Catharijneconvent,_Utrecht.jpg) | `{{PD-Art|PD-old-100-expired}}` | seção "O nome" |
 | `biblia-1534-{claro,escuro}-{600,960}.webp` | [Página de rosto da Bíblia de Lutero, 1534; foto de Torsten Schleese](https://commons.wikimedia.org/wiki/File:Lutherbibel.jpg) | `{{PD-self}}` (o fotógrafo liberou a foto) | fundo bem esmaecido do chamado final |
 | `igreja-zlatari-bucareste-{480,768}.webp` | [Igreja de Zlătari (São Cipriano), Bucareste; foto de M. Cristian-Ioan, 2005, Flickr](https://www.flickr.com/photos/sky-clouds/55404283986/) | Public Domain Mark 1.0 (conferida na página da foto em 03/10/2026; uso aprovado pelo dono do projeto) | página da tradição Ortodoxa |
+| `rembrandt-davi-oracao-{480,768}.webp` | [Rembrandt, *Davi em oração*, 1652, gravura, Art Institute of Chicago](https://www.artic.edu/artworks/48960) | `is_public_domain: true` na API do museu (conferido em 03/10/2026); imagem em CC0 | estudo Salmos 51.5 |
+| `ribera-pedro-penitente-{480,768}.webp` | [Jusepe de Ribera, *São Pedro penitente*, c. 1630, Art Institute of Chicago](https://www.artic.edu/artworks/120172) | `is_public_domain: true` na API do museu (conferido em 03/10/2026); imagem em CC0 | estudo Confissão e perdão dos pecados |
+| `salomao-rainha-saba-{480,768}.webp` | [Mestre do Grupo da Adoração de Antuérpia, *O rei Salomão recebe a rainha de Sabá*, 1515-20, Art Institute of Chicago](https://www.artic.edu/artworks/111670) (detalhe, a parte de baixo do painel) | `is_public_domain: true` na API do museu (conferido em 03/10/2026); imagem em CC0 | Como funciona |
+| `lucas-van-leyden-expulsao-{480,768}.webp` | [Lucas van Leyden, *A expulsão do Paraíso*, 1510, gravura, Art Institute of Chicago](https://www.artic.edu/artworks/106566) | `is_public_domain: true` na API do museu (conferido em 03/10/2026); imagem em CC0 | estudos Pecado original, Romanos 5.12 e Gênesis 3.15 |
 
 Os créditos aparecem no rodapé de todas as páginas e na página Sobre (`/sobre/#creditos`). Imagem nova entra em `CREDITOS`, em `scripts/gerar_site.py`, e nesta tabela, com a licença conferida na fonte.
 

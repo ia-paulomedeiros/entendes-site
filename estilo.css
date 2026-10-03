@@ -233,5 +233,8 @@ section.hero::after {
 .pagina .nome-grade { margin-top: 8px; }
 .nome-texto h1 { font-size: clamp(2.3rem, 6vw, 3.2rem); margin-bottom: 18px; }
 .nome-texto h2 { margin-top: 8px; }
-.foto-tradicao { margin-top: 28px; max-width: 340px; }
-@media (min-width: 720px) { .foto-tradicao { float: right; margin: 8px 0 16px 28px; } .pagina section { clear: none; } }
+.foto-pagina { margin-top: 28px; max-width: 340px; }
+@media (min-width: 720px) { .foto-pagina { float: right; margin: 8px 0 16px 28px; } }
+.foto-pagina + .duas-colunas { display: block; }
+.foto-pagina + .duas-colunas section + section { margin-top: 28px !important; }
+.sintese, .obras, .convite-final, .creditos-estudo { clear: both; }

@@ -186,9 +186,9 @@ class TestSite(unittest.TestCase):
         for arq in (RAIZ / "imagens").iterdir():
             self.assertTrue(any(arq.name.startswith(p) for p in prefixos), f"imagem sem crédito: {arq.name}")
         for c in g.CREDITOS:
-            self.assertRegex(c["url"], r"^https://(commons\.wikimedia\.org/wiki/File:|www\.flickr\.com/photos/)")
+            self.assertRegex(c["url"], r"^https://(commons\.wikimedia\.org/wiki/File:|www\.flickr\.com/photos/|www\.artic\.edu/artworks/\d+$)")
             self.assertNotRegex(c["licenca"], r"(?i)\bNC\b|não comercial")
-            self.assertIn(c["origem"], {"Wikimedia Commons", "Flickr"})
+            self.assertIn(c["origem"], {"Wikimedia Commons", "Flickr", "Art Institute of Chicago"})
             self.assertIn(c["texto"], self.paginas["/sobre/"].replace("&#x27;", "'"))
 
     def test_foto_da_ortodoxa(self):
@@ -198,6 +198,18 @@ class TestSite(unittest.TestCase):
         self.assertIn("M. Cristian-Ioan", html)
         self.assertIn("https://www.flickr.com/photos/sky-clouds/55404283986/", html)
         self.assertNotIn("igreja-zlatari", self.paginas["/tradicoes/catolica/"])
+
+    def test_imagens_das_paginas(self):
+        self.assertEqual(set(g.IMAGENS), {c["id"] for c in g.CREDITOS if c["id"] in g.IMAGENS})
+        for chave in [*g.IMAGEM_TRADICAO.values(), *g.IMAGEM_ESTUDO.values(), *g.IMAGEM_PAGINA.values()]:
+            img = g.IMAGENS[chave]
+            for w in img["larguras"]:
+                self.assertTrue((RAIZ / f"{img['base'].lstrip('/')}-{w}.webp").exists(), f"{chave} {w}")
+        self.assertIn("/imagens/salomao-rainha-saba-768.webp", self.paginas["/como-funciona/"])
+        if "/estudos/pecado-original/" in self.paginas:
+            self.assertIn("lucas-van-leyden-expulsao", self.paginas["/estudos/pecado-original/"])
+        # São Jerônimo (crucifixo com Cristo) fica de fora
+        self.assertNotIn("jeronimo", "".join(self.paginas.values()).lower())
 
 
 if __name__ == "__main__":
