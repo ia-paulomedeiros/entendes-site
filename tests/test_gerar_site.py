@@ -181,5 +181,24 @@ class TestSite(unittest.TestCase):
         self.assertEqual(self.site.ref_extenso("ROM.9"), "Romanos 9")
 
 
+    def test_toda_imagem_tem_credito(self):
+        prefixos = [c["arquivos"] for c in g.CREDITOS]
+        for arq in (RAIZ / "imagens").iterdir():
+            self.assertTrue(any(arq.name.startswith(p) for p in prefixos), f"imagem sem crédito: {arq.name}")
+        for c in g.CREDITOS:
+            self.assertRegex(c["url"], r"^https://(commons\.wikimedia\.org/wiki/File:|www\.flickr\.com/photos/)")
+            self.assertNotRegex(c["licenca"], r"(?i)\bNC\b|não comercial")
+            self.assertIn(c["origem"], {"Wikimedia Commons", "Flickr"})
+            self.assertIn(c["texto"], self.paginas["/sobre/"].replace("&#x27;", "'"))
+
+    def test_foto_da_ortodoxa(self):
+        html = self.paginas["/tradicoes/ortodoxa/"]
+        self.assertIn("/imagens/igreja-zlatari-bucareste-768.webp", html)
+        self.assertIn("Public Domain Mark 1.0", html)
+        self.assertIn("M. Cristian-Ioan", html)
+        self.assertIn("https://www.flickr.com/photos/sky-clouds/55404283986/", html)
+        self.assertNotIn("igreja-zlatari", self.paginas["/tradicoes/catolica/"])
+
+
 if __name__ == "__main__":
     unittest.main()

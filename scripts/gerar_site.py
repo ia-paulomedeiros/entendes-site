@@ -228,8 +228,9 @@ ROTULO_AUTORIDADE = {
 }
 
 # ------------------------------------------------------------------ imagens (domínio público)
-# Todas do Wikimedia Commons, com a licença conferida na página de cada arquivo (README).
-# Imagens novas entram aqui e no README, com a licença conferida na fonte.
+# Licença conferida na página de cada arquivo (README). Imagem nova entra aqui e no README, com a
+# licença conferida na fonte, sem NC, sem IA e sem representar Deus ou Cristo. `arquivos` é o
+# começo do nome dos arquivos em imagens/ (o teste confere que toda imagem tem crédito).
 
 CREDITOS = [
     {
@@ -238,6 +239,8 @@ CREDITOS = [
         "obra": "Die Bibel in Bildern",
         "url": "https://commons.wikimedia.org/wiki/File:Schnorr_von_Carolsfeld_Bibel_in_Bildern_1860_229.png",
         "licenca": "domínio público",
+        "origem": "Wikimedia Commons",
+        "arquivos": "filipe-eunuco",
     },
     {
         "id": "rembrandt",
@@ -245,6 +248,8 @@ CREDITOS = [
         "obra": "O batismo do eunuco",
         "url": "https://commons.wikimedia.org/wiki/File:Rembrandt,_The_Baptism_of_the_Eunuch,_1626,_Museum_Catharijneconvent,_Utrecht.jpg",
         "licenca": "domínio público",
+        "origem": "Wikimedia Commons",
+        "arquivos": "rembrandt-batismo-eunuco",
     },
     {
         "id": "biblia1534",
@@ -252,8 +257,34 @@ CREDITOS = [
         "obra": "Bíblia de Lutero, 1534",
         "url": "https://commons.wikimedia.org/wiki/File:Lutherbibel.jpg",
         "licenca": "domínio público (o fotógrafo liberou a foto)",
+        "origem": "Wikimedia Commons",
+        "arquivos": "biblia-1534",
+    },
+    {
+        # Flickr, licença Public Domain Mark 1.0 conferida na página da foto em 03/10/2026; uso
+        # aprovado pelo dono do projeto. Só arquitetura e cruzes (a foto do interior de Sinaia,
+        # com afrescos de Cristo, ficou de fora pela regra de neutralidade).
+        "id": "zlatari",
+        "texto": "Igreja de Zlătari (São Cipriano), Bucareste, foto de M. Cristian-Ioan, 2005",
+        "obra": "Igreja de Zlătari, Bucareste",
+        "url": "https://www.flickr.com/photos/sky-clouds/55404283986/",
+        "licenca": "Public Domain Mark 1.0",
+        "origem": "Flickr",
+        "arquivos": "igreja-zlatari-bucareste",
     },
 ]
+
+# Imagem de cada tradição (uma por página, no máximo)
+IMAGENS_TRADICAO = {
+    "ortodoxa": {
+        "credito": "zlatari",
+        "base": "/imagens/igreja-zlatari-bucareste",
+        "larguras": (480, 768),
+        "altura_768": 1024,
+        "alt": "Fachada de uma igreja ortodoxa romena com quatro cúpulas cinzentas encimadas por cruzes, arcos de tijolo aparente e um pórtico na entrada.",
+        "legenda": "Igreja ortodoxa de Zlătari, em Bucareste (Romênia), conhecida pelas relíquias de São Cipriano. Foto de M. Cristian-Ioan, 2005",
+    },
+}
 
 # ------------------------------------------------------------------ peças das páginas
 
@@ -331,7 +362,7 @@ def rodape() -> str:
       <a href="{APP}/termos">Termos</a>
     </div>
     <p class="verso">“Entendes tu o que lês?” Atos 8.30</p>
-    <p class="creditos">Imagens em domínio público, do Wikimedia Commons: {"; ".join(f'<a href="{esc(c["url"])}">{esc(c["texto"])}</a>' for c in CREDITOS)}.</p>
+    <p class="creditos">Imagens em domínio público: {"; ".join(f'<a href="{esc(c["url"])}">{esc(c["texto"])}</a> ({esc(c["origem"])}{", " + esc(c["licenca"]) if c["origem"] != "Wikimedia Commons" else ""})' for c in CREDITOS)}.</p>
   </div>
 </footer>"""
 
@@ -647,6 +678,19 @@ def pagina_tradicoes(site: Site) -> str:
     return pagina("/tradicoes/", "Tradições", cortar(f"As tradições cristãs no Entendes e as fontes de cada uma: {nomes}."), corpo)
 
 
+def figura_tradicao(tid: str) -> str:
+    img = IMAGENS_TRADICAO.get(tid)
+    if not img:
+        return ""
+    c = next(c for c in CREDITOS if c["id"] == img["credito"])
+    w1, w2 = img["larguras"]
+    srcset = f'{img["base"]}-{w1}.webp {w1}w, {img["base"]}-{w2}.webp {w2}w'
+    return f"""<figure class="obra foto-tradicao">
+  <img src="{img["base"]}-{w2}.webp" srcset="{srcset}" sizes="(min-width: 720px) 340px, 100vw" width="{w2}" height="{img["altura_768"]}" loading="lazy" decoding="async" alt="{esc(img["alt"])}">
+  <figcaption>{esc(img["legenda"])}. <a href="{esc(c["url"])}">{esc(c["origem"])}</a>, {esc(c["licenca"])}.</figcaption>
+</figure>"""
+
+
 def pagina_tradicao(site: Site, t: dict) -> str:
     com, sem = site.estudos_da_tradicao(t["id"])
     obras = site.obras_da_tradicao(t["id"])
@@ -665,6 +709,7 @@ def pagina_tradicao(site: Site, t: dict) -> str:
     if t["status"] == "acervo_em_construcao":
         aviso = '<p class="aviso grande">Acervo em construção: por enquanto, só material histórico em domínio público.</p>'
     sub_txt = f'<p class="sobrelinha">Inclui: {esc(juntar(subs))}</p>' if subs else ""
+    figura = figura_tradicao(t["id"])
     corpo = f"""<div class="estreita pagina">
 {migalhas(("Início", "/"), ("Tradições", "/tradicoes/"), (t["nome"], None))}
 <div class="cabeca-pagina">
@@ -673,6 +718,7 @@ def pagina_tradicao(site: Site, t: dict) -> str:
   {sub_txt}{aviso}
   <p class="lead">Nos estudos do Entendes, a tradição {esc(t["nome"])} é representada pelos próprios documentos e autores do acervo. Cada afirmação aponta para o trecho de onde veio.</p>
 </div>
+{figura}
 <section aria-labelledby="t-obras">
   <h2 id="t-obras">Principais documentos e autores no acervo</h2>
   <ul class="obras-lista">{itens_obras}</ul>
@@ -737,7 +783,7 @@ def pagina_como_funciona(site: Site) -> str:
 
 
 def pagina_sobre(site: Site) -> str:
-    creditos = "".join(f'<li><a href="{esc(c["url"])}">{esc(c["texto"])}</a> — {esc(c["licenca"])}, Wikimedia Commons.</li>' for c in CREDITOS)
+    creditos = "".join(f'<li><a href="{esc(c["url"])}">{esc(c["texto"])}</a> — {esc(c["licenca"])}, {esc(c["origem"])}.</li>' for c in CREDITOS)
     corpo = f"""<div class="largura pagina">
 {migalhas(("Início", "/"), ("Sobre", None))}
 <div class="nome-grade">
@@ -773,7 +819,7 @@ def pagina_sobre(site: Site) -> str:
 </section>
 <section id="creditos" aria-labelledby="t-creditos">
   <h2 id="t-creditos">Créditos das imagens</h2>
-  <p>Todas as imagens do site são de domínio público, com a licença conferida na página de cada arquivo. Nenhuma foi gerada por IA.</p>
+  <p>Todas as imagens do site são de domínio público, com a licença conferida na página de cada arquivo. Nenhuma foi gerada por IA, e nenhuma representa Deus ou Cristo.</p>
   <ul class="lista-creditos">{creditos}</ul>
   <p class="nota">Fontes tipográficas: Cormorant Garamond e Source Sans 3, licença SIL Open Font License.</p>
 </section>
