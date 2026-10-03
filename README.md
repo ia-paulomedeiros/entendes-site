@@ -2,21 +2,49 @@
 
 Site de apresentação do **Entendes**. O app fica em https://www.entendes.app.
 
-O site é HTML e CSS estáticos:
-- sem framework, sem JavaScript, sem rastreadores e sem cookies;
+O site é HTML e CSS estáticos, com várias páginas:
+- sem framework, sem rastreadores e sem cookies;
+- JavaScript só no filtro da lista de estudos (sem ele, a lista inteira aparece); o menu de celular funciona sem JavaScript;
 - fontes servidas daqui mesmo (Cormorant Garamond e Source Sans 3, licença OFL, em `fontes/`);
 - publicado pelo GitHub Pages com o domínio `entendes.com.br` (arquivo `CNAME`).
 
-## Arquivos
+## Páginas
 
-| Arquivo | O que é |
+| Endereço | O que é |
 |---|---|
-| `index.html` | a página única |
-| `404.html` | página de erro |
-| `estilo.css` | cores e fontes do app, com modo escuro automático |
-| `og.png` | imagem de compartilhamento (1200×630) |
-| `favicon.*`, `apple-touch-icon.png` | ícones, iguais aos do app |
-| `robots.txt`, `sitemap.xml` | para os buscadores |
+| `/` | início: chamada, estudos recentes, como funciona, tradições e o nome |
+| `/estudos/` | todos os estudos publicados, com filtro por texto, tipo (tema ou passagem) e livro |
+| `/estudos/<slug>/` | um estudo: resumo, referências, tradições comparadas, as duas primeiras concordâncias e divergências, obras citadas e o botão "Ler o estudo completo no app" (`https://www.entendes.app/estudos/<slug>`) |
+| `/tradicoes/` | as tradições com acervo e as que entram em breve (Anglicana e Adventista, sem página própria) |
+| `/tradicoes/<id>/` | uma tradição: principais documentos e autores do acervo e os estudos em que aparece |
+| `/como-funciona/` | acervo, como um estudo é feito, as conferências antes de publicar e os rótulos |
+| `/sobre/` | o nome (Atos 8), os princípios, o contato e os créditos das imagens |
+
+Menu fixo no topo; no celular, o menu abre num botão. O rodapé de todas as páginas traz o contato.
+
+Arquivos fixos, que o gerador não toca: `estilo.css` (cores e fontes do app, com modo escuro automático), `og.png` (imagem de compartilhamento, 1200×630), `favicon.*` e `apple-touch-icon.png` (iguais aos do app), `robots.txt`, `CNAME`, `.nojekyll`, `fontes/` e `imagens/`.
+
+## Gerar as páginas de novo (quando sair estudo novo)
+
+As páginas de `index.html`, `404.html`, `sitemap.xml`, `estudos/`, `tradicoes/`, `como-funciona/` e `sobre/` são **geradas**: não edite à mão. O gerador fica em `scripts/gerar_site.py` (só Python 3.11, sem dependências):
+
+```sh
+export SUPABASE_ACCESS_TOKEN=...   # token pessoal da Management API do Supabase; nunca no Git
+python3 scripts/gerar_site.py      # lê o banco, grava dados/site.json e gera as páginas
+python3 -m unittest discover -s tests
+git add -A && git commit -m "Site: estudos de <data>" && git push
+```
+
+- O banco é lido **só para leitura**, pela rota `database/query/read-only` da Management API, no projeto BibliandoApp (São Paulo).
+- `dados/site.json` é o retrato do que foi lido. Ele entra no Git para a revisão mostrar o que mudou e para `python3 scripts/gerar_site.py --sem-banco` gerar as páginas sem acesso ao banco, por exemplo depois de mudar o visual.
+- O retrato só traz dados públicos:
+  - dos estudos publicados: título, tipo, tema, referências, data, tradições comparadas, as obras citadas e as duas primeiras afirmações das concordâncias e das divergências;
+  - das fontes liberadas: título e autor.
+
+  O texto das fontes e o estudo inteiro ficam no app.
+- O gerador apaga e refaz as pastas geradas: um estudo despublicado some do site na próxima geração.
+- As tradições vêm da tabela `tradicoes`: as de status `fase_2` aparecem como "em breve", sem página própria.
+- Ainda não há automação. Depois, um GitHub Actions pode rodar o mesmo comando.
 
 ## Imagens
 
@@ -28,7 +56,7 @@ Todas são de domínio público e vêm do Wikimedia Commons. A licença foi conf
 | `rembrandt-batismo-eunuco-{600,960}.webp` | [Rembrandt, *O batismo do eunuco*, 1626, Museum Catharijneconvent](https://commons.wikimedia.org/wiki/File:Rembrandt,_The_Baptism_of_the_Eunuch,_1626,_Museum_Catharijneconvent,_Utrecht.jpg) | `{{PD-Art|PD-old-100-expired}}` | seção "O nome" |
 | `biblia-1534-{claro,escuro}-{600,960}.webp` | [Página de rosto da Bíblia de Lutero, 1534; foto de Torsten Schleese](https://commons.wikimedia.org/wiki/File:Lutherbibel.jpg) | `{{PD-self}}` (o fotógrafo liberou a foto) | fundo bem esmaecido do chamado final |
 
-Os créditos também aparecem no rodapé da página.
+Os créditos aparecem no rodapé de todas as páginas e na página Sobre (`/sobre/#creditos`). Imagem nova entra em `CREDITOS`, em `scripts/gerar_site.py`, e nesta tabela, com a licença conferida na fonte.
 
 O símbolo vem de `src/lib/simbolo.ts`, no repositório do app. Se ele mudar, troque o `<svg>` das páginas e os ícones.
 
