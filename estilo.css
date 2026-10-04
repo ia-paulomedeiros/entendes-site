@@ -238,3 +238,4 @@ section.hero::after {
 .foto-pagina + .duas-colunas { display: block; }
 .foto-pagina + .duas-colunas section + section { margin-top: 28px !important; }
 .sintese, .obras, .convite-final, .creditos-estudo { clear: both; }
+.rodape .empresa { margin-top: 12px; font-size: 0.8rem; line-height: 1.5; }

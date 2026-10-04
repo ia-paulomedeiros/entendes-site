@@ -40,6 +40,9 @@ SITE = "https://entendes.com.br"
 APP = "https://www.entendes.app"
 EMAIL = "contato@entendes.com.br"
 INSTAGRAM = "https://www.instagram.com/entendes.app"
+# Quem oferece o Entendes (Termos de uso, item 1); igual a LINHA_EMPRESA em src/lib/juridico.ts no app
+EMPRESA = ("PCM COMERCIAL · CNPJ 35.289.771/0001-25 · Rua Eduardo Renato D'Oliveira, 40, Estância São Francisco, "
+           "São José do Rio Preto - SP, CEP 15062-047")
 # Pastas e arquivos que o gerador escreve (e apaga antes de escrever de novo)
 PASTAS_GERADAS = ["estudos", "tradicoes", "como-funciona", "sobre"]
 ARQUIVOS_GERADOS = ["index.html", "404.html", "sitemap.xml"]
@@ -502,6 +505,7 @@ def rodape() -> str:
       <a href="{APP}/privacidade">Privacidade</a>
       <a href="{APP}/termos">Termos</a>
     </div>
+    <p class="empresa">{esc(EMPRESA)}</p>
     <p class="verso">“Entendes tu o que lês?” Atos 8.30</p>
     <p class="creditos">Imagens em domínio público: {"; ".join(f'<a href="{esc(c["url"])}">{esc(c["texto"])}</a> ({esc(c["origem"])}{", " + esc(c["licenca"]) if c["origem"] == "Flickr" else ""})' for c in CREDITOS)}.</p>
   </div>
