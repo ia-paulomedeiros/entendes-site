@@ -1,0 +1,68 @@
+# Gera o site a partir do banco do Entendes, só com leitura, uma vez por dia e sob demanda.
+# Lê o Supabase pela API pública com a chave anon (segredo SUPABASE_ANON_KEY): o RLS do app só
+# mostra estudos publicados e fontes liberadas. Faz commit só se algo mudou; o GitHub Pages publica.
+name: Gerar o site
+
+on:
+  schedule:
+    - cron: "17 7 * * *" # 04:17 em Brasília (UTC-3, sem horário de verão)
+  workflow_dispatch:
+
+permissions:
+  contents: write # commit das páginas geradas
+  pages: write # pedir a publicação depois do commit
+
+concurrency:
+  group: gerar-site
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Conferir o segredo
+        env:
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          if [ -z "$SUPABASE_ANON_KEY" ]; then
+            echo "::error::Falta o segredo SUPABASE_ANON_KEY (Settings > Secrets and variables > Actions). Veja o README."
+            exit 1
+          fi
+
+      - name: Gerar as páginas (leitura com a chave anon)
+        env:
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: python3 scripts/gerar_site.py --fonte anon
+
+      - name: Testes
+        run: python3 -m unittest discover -s tests
+
+      - name: Commit, se algo mudou
+        id: commit
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nada mudou: sem commit."
+            echo "mudou=nao" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Site gerado do banco em $(date -u +%Y-%m-%d)"
+          git push
+          echo "mudou=sim" >> "$GITHUB_OUTPUT"
+
+      - name: Pedir a publicação no GitHub Pages
+        if: steps.commit.outputs.mudou == 'sim'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method POST "repos/${{ github.repository }}/pages/builds" \
+            || echo "::warning::Não deu para pedir a publicação; o push no main costuma bastar."

@@ -3,7 +3,7 @@
 Site de apresentação do **Entendes**. O app fica em https://www.entendes.app.
 
 O site é HTML e CSS estáticos, com várias páginas:
-- sem framework, sem rastreadores e sem cookies;
+- sem framework, sem rastreadores e sem cookies; gerado do banco por um GitHub Actions diário;
 - JavaScript só no filtro da lista de estudos (sem ele, a lista inteira aparece); o menu de celular funciona sem JavaScript;
 - fontes servidas daqui mesmo (Cormorant Garamond e Source Sans 3, licença OFL, em `fontes/`);
 - publicado pelo GitHub Pages com o domínio `entendes.com.br` (arquivo `CNAME`).
@@ -24,27 +24,43 @@ Menu fixo no topo; no celular, o menu abre num botão. O rodapé de todas as pá
 
 Arquivos fixos, que o gerador não toca: `estilo.css` (cores e fontes do app, com modo escuro automático), `og.png` (imagem de compartilhamento, 1200×630), `favicon.*` e `apple-touch-icon.png` (iguais aos do app), `robots.txt`, `CNAME`, `.nojekyll`, `fontes/` e `imagens/`.
 
-## Gerar as páginas de novo (quando sair estudo novo)
+## Gerar as páginas de novo (automático, uma vez por dia)
 
-As páginas de `index.html`, `404.html`, `sitemap.xml`, `estudos/`, `tradicoes/`, `como-funciona/` e `sobre/` são **geradas**: não edite à mão. O gerador fica em `scripts/gerar_site.py` (só Python 3.11, sem dependências):
+As páginas de `index.html`, `404.html`, `sitemap.xml`, `estudos/`, `tradicoes/`, `como-funciona/` e `sobre/` são **geradas**: não edite à mão. O gerador fica em `scripts/gerar_site.py` (só Python 3.11, sem dependências).
+
+### GitHub Actions
+
+O workflow `.github/workflows/gerar-site.yml` ("Gerar o site") roda:
+- **todo dia às 04:17 de Brasília** (07:17 UTC);
+- e **quando alguém pede**: aba **Actions → Gerar o site → Run workflow**.
+
+Ele lê o banco só para leitura, com a chave pública **anon**, pela API pública do Supabase. O RLS do app só mostra à anon os estudos publicados e as fontes liberadas. Depois roda os testes e **faz commit só se algo mudou**: a data de `dados/site.json` só muda quando os dados mudam. Por fim, o GitHub Pages publica.
+
+**Segredo necessário (o dono cria uma vez):** `SUPABASE_ANON_KEY`.
+
+1. No Supabase, abra o projeto **BibliandoApp** e vá em **Project Settings → API Keys**. Na aba **Legacy API keys**, copie a chave **`anon` `public`** (começa com `eyJ`). A chave publicável nova (`sb_publishable_…`) também funciona. **Nunca** use a `service_role` nem a `secret`.
+2. No GitHub, abra o repositório `entendes-site` e vá em **Settings → Secrets and variables → Actions → New repository secret**.
+3. Em **Name**, escreva `SUPABASE_ANON_KEY`; em **Secret**, cole a chave. Clique em **Add secret**.
+4. Vá em **Actions → Gerar o site → Run workflow** para a primeira rodada. Sem o segredo, o workflow para no passo "Conferir o segredo", com a mensagem de erro.
+5. Se o passo do commit falhar com erro de permissão, confira em **Settings → Actions → General → Workflow permissions** se o repositório deixa o workflow escrever (o arquivo já pede `contents: write`).
+
+### Rodar à mão
 
 ```sh
-export SUPABASE_ACCESS_TOKEN=...   # token pessoal da Management API do Supabase; nunca no Git
+export SUPABASE_ANON_KEY=...       # chave anon pública; nunca no Git
 python3 scripts/gerar_site.py      # lê o banco, grava dados/site.json e gera as páginas
 python3 -m unittest discover -s tests
-git add -A && git commit -m "Site: estudos de <data>" && git push
 ```
 
-- O banco é lido **só para leitura**, pela rota `database/query/read-only` da Management API, no projeto BibliandoApp (São Paulo).
-- `dados/site.json` é o retrato do que foi lido. Ele entra no Git para a revisão mostrar o que mudou e para `python3 scripts/gerar_site.py --sem-banco` gerar as páginas sem acesso ao banco, por exemplo depois de mudar o visual.
-- O retrato só traz dados públicos:
+- Sem a chave anon, o gerador usa `SUPABASE_ACCESS_TOKEN` (token pessoal), pela rota `database/query/read-only` da Management API. Os dois caminhos devolvem os mesmos dados (conferido em 04/10/2026).
+- `python3 scripts/gerar_site.py --sem-banco` gera as páginas a partir de `dados/site.json`, sem acesso ao banco, por exemplo depois de mudar o visual.
+- `dados/site.json` é o retrato do que foi lido e entra no Git, para a revisão mostrar o que mudou. Ele só traz dados públicos:
   - dos estudos publicados: título, tipo, tema, referências, data, tradições comparadas, as obras citadas e as duas primeiras afirmações das concordâncias e das divergências;
   - das fontes liberadas: título e autor.
 
   O texto das fontes e o estudo inteiro ficam no app.
 - O gerador apaga e refaz as pastas geradas: um estudo despublicado some do site na próxima geração.
 - As tradições vêm da tabela `tradicoes`: as de status `fase_2` aparecem como "em breve", sem página própria.
-- Ainda não há automação. Depois, um GitHub Actions pode rodar o mesmo comando.
 
 ## Imagens
 

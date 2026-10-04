@@ -212,5 +212,77 @@ class TestSite(unittest.TestCase):
         self.assertNotIn("jeronimo", "".join(self.paginas.values()).lower())
 
 
+class TestLeituraAnon(unittest.TestCase):
+    """ler_banco_anon com respostas simuladas da API pública (sem rede)."""
+
+    def setUp(self):
+        self.pedidos = []
+        trechos = [{"id": f"A-001:{i:04d}", "fonte_id": "A-001", "tradicao_id": "catolica"} for i in range(1000)]
+        trechos += [{"id": "B-001:0001", "fonte_id": "B-001", "tradicao_id": "luterana"},
+                    {"id": "BIB-007:1", "fonte_id": "BIB-007", "tradicao_id": "catolica"},
+                    {"id": "FORA-01:1", "fonte_id": "FORA-01", "tradicao_id": "catolica"}]
+
+        def falsa(caminho, chave):
+            self.pedidos.append(caminho)
+            self.assertEqual(chave, "anon-de-teste")
+            if caminho.startswith("fontes?"):
+                return [
+                    {"id": "A-001", "titulo": "A", "autor": None, "tipo_autoridade": "oficial", "papel_no_app": "confissao", "liberada": True},
+                    {"id": "B-001", "titulo": "B", "autor": "X", "tipo_autoridade": "oficial", "papel_no_app": "obra", "liberada": True},
+                    {"id": "BIB-007", "titulo": "Bíblia", "autor": None, "tipo_autoridade": "biblia", "papel_no_app": "biblia", "liberada": True},
+                    {"id": "FORA-01", "titulo": "F", "autor": None, "tipo_autoridade": "oficial", "papel_no_app": "obra", "liberada": True},
+                    {"id": "NAO-001", "titulo": "N", "autor": None, "tipo_autoridade": "oficial", "papel_no_app": "obra", "liberada": False},
+                ]
+            if caminho.startswith("fontes_fora_da_busca"):
+                return [{"fonte_id": "FORA-01"}]
+            if caminho.startswith("fontes_fora_da_comparacao"):
+                return []
+            if caminho.startswith("trechos?"):
+                return trechos[1000:] if "id=gt." in caminho else trechos[:1000]
+            if caminho.startswith("estudos?"):
+                af = lambda o, f: {"ordem": o, "texto": f"af{o}", "citacoes": [{"trechos": {"fonte_id": f}}]}
+                return [{"slug": "s", "versao": 1, "tipo": "tema", "titulo": "T", "tema": "T", "referencias": ["ROM.1.1"],
+                         "resumo": None, "publicado_em": "2026-10-04T05:00:00+00:00", "atribuicoes": [], "licencas_derivadas": [],
+                         "estudo_secoes": [
+                             {"ordem": 2, "tipo": "concordancias", "tradicao_id": None, "subtradicao_id": None,
+                              "sem_material_suficiente": False, "estudo_afirmacoes": [af(3, "A-001"), af(1, "B-001"), af(2, "A-001")]},
+                             {"ordem": 1, "tipo": "tradicao", "tradicao_id": "catolica", "subtradicao_id": None,
+                              "sem_material_suficiente": False, "estudo_afirmacoes": [af(1, "A-001"), af(2, "A-001")]},
+                         ]}]
+            return [{"tabela": caminho.split("?")[0]}]
+
+        self.original = g._publica
+        g._publica = falsa
+
+    def tearDown(self):
+        g._publica = self.original
+
+    def test_transforma_como_a_consulta_sql(self):
+        d = g.ler_banco_anon("anon-de-teste")
+        self.assertEqual([f["id"] for f in d["fontes"]], ["A-001", "B-001", "BIB-007", "FORA-01"])
+        self.assertNotIn("liberada", d["fontes"][0])
+        # sem Bíblia, sem fonte fora da busca; contagem pelas duas páginas de trechos
+        self.assertEqual(d["obras_por_tradicao"], [
+            {"tradicao_id": "catolica", "fonte_id": "A-001", "trechos": 1000},
+            {"tradicao_id": "luterana", "fonte_id": "B-001", "trechos": 1},
+        ])
+        self.assertEqual(sum(p.startswith("trechos?") for p in self.pedidos), 2)
+        self.assertIn("id=gt.A-001%3A0999", [p for p in self.pedidos if "id=gt." in p][0])
+        e = d["estudos"][0]
+        self.assertEqual(e["publicado_em"], "2026-10-04")
+        self.assertEqual([s["tipo"] for s in e["secoes"]], ["tradicao", "concordancias"])
+        self.assertEqual(e["secoes"][0]["afirmacoes"], [])  # texto das seções de tradição não vem
+        self.assertEqual(e["secoes"][1]["afirmacoes"], ["af1", "af2"])  # só as duas primeiras
+        self.assertEqual(e["secoes"][1]["fontes"], ["A-001", "B-001"])
+        self.assertTrue(all("status=eq.publicado" in p for p in self.pedidos if p.startswith("estudos?")))
+
+    def test_data_so_muda_quando_os_dados_mudam(self):
+        dados = {"estudos": [1], "tradicoes": [2]}
+        anterior = {**dados, "gerado_em": "2026-10-01"}
+        self.assertEqual(g.com_data(dados, anterior)["gerado_em"], "2026-10-01")
+        self.assertNotEqual(g.com_data({**dados, "estudos": [1, 3]}, anterior)["gerado_em"], "2026-10-01")
+        self.assertEqual(len(g.com_data(dados, None)["gerado_em"]), 10)
+
+
 if __name__ == "__main__":
     unittest.main()

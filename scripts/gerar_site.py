@@ -5,9 +5,12 @@ Uso:
   python3 scripts/gerar_site.py             # lê o banco, grava dados/site.json e gera as páginas
   python3 scripts/gerar_site.py --sem-banco # gera as páginas a partir de dados/site.json
 
-Rode de novo quando sair estudo novo. O banco é lido pela consulta SÓ DE LEITURA da Management
-API do Supabase (projeto BibliandoApp, São Paulo), com o token pessoal em SUPABASE_ACCESS_TOKEN
-(nunca no Git). Só entram dados públicos: estudos publicados (título, referências, tradições,
+Rode de novo quando sair estudo novo (o GitHub Actions roda uma vez por dia). O banco do projeto
+BibliandoApp (São Paulo) é lido SÓ PARA LEITURA, de um destes jeitos (nenhuma chave vai para o Git):
+  - SUPABASE_ANON_KEY (chave pública anon): pela API pública (PostgREST), com o RLS do app; a
+    anon só enxerga estudos publicados e fontes liberadas. É o que o GitHub Actions usa.
+  - SUPABASE_ACCESS_TOKEN (token pessoal): pela rota só de leitura da Management API.
+Com as duas, vale a anon (`--fonte` escolhe). Só entram dados públicos: estudos publicados (título, referências, tradições,
 as duas primeiras concordâncias e divergências) e os títulos e autores das fontes liberadas.
 Nada do texto das fontes nem do estudo inteiro: o estudo completo fica no app.
 
@@ -22,6 +25,7 @@ import os
 import re
 import shutil
 import sys
+import urllib.parse
 import urllib.request
 from datetime import date
 from pathlib import Path
@@ -30,6 +34,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 DADOS = RAIZ / "dados" / "site.json"
 PROJETO = "acamorsjdrfbactkfywo"  # BibliandoApp (sa-east-1); nunca o projeto antigo dos EUA
 API_LEITURA = f"https://api.supabase.com/v1/projects/{PROJETO}/database/query/read-only"
+API_PUBLICA = f"https://{PROJETO}.supabase.co/rest/v1"
 
 SITE = "https://entendes.com.br"
 APP = "https://www.entendes.app"
@@ -62,7 +67,7 @@ CONSULTAS = {
         where f.liberada and f.papel_no_app <> 'biblia' and t.tipo <> 'indice' and t.tradicao_id is not null
           and f.id not in (select fonte_id from public.fontes_fora_da_busca)
           and f.id not in (select fonte_id from public.fontes_fora_da_comparacao)
-        group by 1, 2 order by 1, 3 desc""",
+        group by 1, 2 order by 1, 3 desc, 2""",
     "estudos": f"""
         select e.slug, e.versao, e.tipo, e.titulo, e.tema, e.referencias, e.resumo,
                e.publicado_em::date::text as publicado_em, e.atribuicoes, e.licencas_derivadas,
@@ -96,9 +101,81 @@ def consultar(sql: str) -> list[dict]:
 
 
 def ler_banco() -> dict:
-    dados = {nome: consultar(sql) for nome, sql in CONSULTAS.items()}
-    dados["gerado_em"] = date.today().isoformat()
-    return dados
+    """Pela Management API (token pessoal), em SQL."""
+    return {nome: consultar(sql) for nome, sql in CONSULTAS.items()}
+
+
+def _publica(caminho: str, chave: str) -> list[dict]:
+    """GET na API pública (PostgREST) com a chave anon (JWT) ou publicável (sb_publishable_…)."""
+    cab = {"apikey": chave, "accept": "application/json", "user-agent": "entendes-site/1.0"}
+    if chave.count(".") == 2:  # JWT (anon legada): também no Authorization
+        cab["authorization"] = f"Bearer {chave}"
+    req = urllib.request.Request(f"{API_PUBLICA}/{caminho}", headers=cab)
+    with urllib.request.urlopen(req, timeout=120) as r:
+        return json.loads(r.read())
+
+
+def ler_banco_anon(chave: str) -> dict:
+    """Os mesmos dados de ler_banco(), pela API pública com a chave anon (RLS do app)."""
+    get = lambda c: _publica(c, chave)  # noqa: E731
+    fontes_todas = get("fontes?select=id,titulo,autor,tipo_autoridade,papel_no_app,liberada&order=id")
+    fontes = [{k: f[k] for k in ("id", "titulo", "autor", "tipo_autoridade", "papel_no_app")}
+              for f in fontes_todas if f["liberada"]]
+    fora = {r["fonte_id"] for r in get("fontes_fora_da_busca?select=fonte_id")}
+    fora |= {r["fonte_id"] for r in get("fontes_fora_da_comparacao?select=fonte_id")}
+    validas = {f["id"] for f in fontes if f["papel_no_app"] != "biblia"} - fora
+
+    # trechos por obra e tradição (só fonte e tradição; páginas de 1.000 pela chave, sem offset)
+    contagem: dict[tuple[str, str], int] = {}
+    ultimo = ""
+    while True:
+        filtro = f"&id=gt.{urllib.parse.quote(ultimo, safe='')}" if ultimo else ""
+        lote = get("trechos?select=id,fonte_id,tradicao_id&tipo=neq.indice&tradicao_id=not.is.null"
+                   f"&order=id.asc&limit=1000{filtro}")
+        for r in lote:
+            if r["fonte_id"] in validas:
+                chave_ = (r["tradicao_id"], r["fonte_id"])
+                contagem[chave_] = contagem.get(chave_, 0) + 1
+        if len(lote) < 1000:
+            break
+        ultimo = lote[-1]["id"]
+    obras = [{"tradicao_id": t, "fonte_id": f, "trechos": n} for (t, f), n in contagem.items()]
+    obras.sort(key=lambda o: (o["tradicao_id"], -o["trechos"], o["fonte_id"]))
+
+    estudos_brutos = get(
+        "estudos?select=slug,versao,tipo,titulo,tema,referencias,resumo,publicado_em,atribuicoes,licencas_derivadas,"
+        "estudo_secoes(ordem,tipo,tradicao_id,subtradicao_id,sem_material_suficiente,"
+        "estudo_afirmacoes(ordem,texto,citacoes(trechos(fonte_id))))"
+        "&status=eq.publicado&order=publicado_em.desc,slug.asc")
+    estudos = []
+    for e in estudos_brutos:
+        secoes = []
+        for s in sorted(e.pop("estudo_secoes"), key=lambda s: s["ordem"]):
+            afs = sorted(s["estudo_afirmacoes"], key=lambda a: a["ordem"])
+            textos = [a["texto"] for a in afs if a["ordem"] <= AFIRMACOES_POR_BLOCO] \
+                if s["tipo"] in ("concordancias", "divergencias") else []
+            citadas = sorted({c["trechos"]["fonte_id"] for a in afs for c in a["citacoes"] if c.get("trechos")})
+            secoes.append({"tipo": s["tipo"], "tradicao_id": s["tradicao_id"], "subtradicao_id": s["subtradicao_id"],
+                           "sem_material": s["sem_material_suficiente"], "afirmacoes": textos, "fontes": citadas})
+        e["publicado_em"] = e["publicado_em"][:10]
+        e["secoes"] = secoes
+        estudos.append(e)
+
+    return {
+        "tradicoes": get("tradicoes?select=id,nome,sigla,grupo,status,ordem&order=ordem"),
+        "subtradicoes": get("subtradicoes?select=tradicao_id,id,nome&order=tradicao_id,id"),
+        "livros": get("livros_biblicos?select=codigo,nome,abreviacao,testamento,ordem&order=ordem"),
+        "fontes": fontes,
+        "obras_por_tradicao": obras,
+        "estudos": estudos,
+    }
+
+
+def com_data(dados: dict, anterior: dict | None) -> dict:
+    """Põe gerado_em; se nada mudou desde o retrato anterior, mantém a data dele (sem commit à toa)."""
+    if anterior and {k: v for k, v in anterior.items() if k != "gerado_em"} == dados:
+        return {**dados, "gerado_em": anterior["gerado_em"]}
+    return {**dados, "gerado_em": date.today().isoformat()}
 
 
 # ------------------------------------------------------------------ modelo
@@ -965,11 +1042,22 @@ def escrever(saida: dict[str, str], destino: Path = RAIZ) -> list[Path]:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--sem-banco", action="store_true", help="usa dados/site.json, sem ler o banco")
+    ap.add_argument("--fonte", choices=["anon", "gestao"],
+                    help="anon: API pública com SUPABASE_ANON_KEY; gestao: Management API (padrão: anon se houver a chave)")
     args = ap.parse_args()
+    anterior = json.loads(DADOS.read_text(encoding="utf-8")) if DADOS.exists() else None
     if args.sem_banco:
-        dados = json.loads(DADOS.read_text(encoding="utf-8"))
+        dados = anterior
+        if dados is None:
+            raise SystemExit("dados/site.json não existe: rode sem --sem-banco")
     else:
-        dados = ler_banco()
+        chave = os.environ.get("SUPABASE_ANON_KEY", "").strip()
+        fonte = args.fonte or ("anon" if chave else "gestao")
+        if fonte == "anon" and not chave:
+            raise SystemExit("--fonte anon exige SUPABASE_ANON_KEY")
+        dados = com_data(ler_banco_anon(chave) if fonte == "anon" else ler_banco(), anterior)
+        if not dados["estudos"] or not dados["tradicoes"]:
+            raise SystemExit("o banco não devolveu estudos ou tradições: nada foi gravado")
         DADOS.parent.mkdir(exist_ok=True)
         DADOS.write_text(json.dumps(dados, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     escritos = escrever(montar(dados))
