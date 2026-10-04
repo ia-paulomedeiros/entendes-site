@@ -284,5 +284,17 @@ class TestLeituraAnon(unittest.TestCase):
         self.assertEqual(len(g.com_data(dados, None)["gerado_em"]), 10)
 
 
+class TestRodape(unittest.TestCase):
+    def test_empresa_no_rodape_de_todas_as_paginas(self):
+        linha = "PCM COMERCIAL · CNPJ 35.289.771/0001-25 · Rua Eduardo Renato D&#x27;Oliveira, 40, Estância São Francisco, São José do Rio Preto - SP, CEP 15062-047"
+        for caminho, html in g.montar(DADOS).items():
+            if caminho == "sitemap.xml":
+                continue
+            rodape = html[html.index('<footer class="rodape">'):]
+            self.assertIn(linha, rodape, caminho)
+            self.assertIn(f'href="{g.APP}/termos"', rodape, caminho)
+            self.assertIn(f'href="{g.APP}/privacidade"', rodape, caminho)
+
+
 if __name__ == "__main__":
     unittest.main()
