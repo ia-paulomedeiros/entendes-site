@@ -2,31 +2,75 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://entendes.com.br/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/como-funciona/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/sobre/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/tradicoes/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/1-corintios-11-24/</loc>
     <lastmod>2026-10-01</lastmod>
   </url>
   <url>
+    <loc>https://entendes.com.br/estudos/1-corintios-12-10/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/1-corintios-14-2/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/1-corintios-3-15/</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/1-pedro-3-21/</loc>
+    <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/1-tessalonicenses-4-17/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/1-timoteo-2-4/</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/1-timoteo-3-15/</loc>
+    <lastmod>2026-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/2-tessalonicenses-2-15/</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/2-timoteo-3-16/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/apocalipse-20-4/</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
     <loc>https://entendes.com.br/estudos/atos-2-38/</loc>
     <lastmod>2026-10-02</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/atos-2-4/</loc>
+    <lastmod>2026-11-03</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/batismo/</loc>
@@ -35,6 +79,10 @@
   <url>
     <loc>https://entendes.com.br/estudos/ceia-do-senhor/</loc>
     <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/colossenses-2-12/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/comunhao-dos-santos/</loc>
@@ -49,32 +97,108 @@
     <lastmod>2026-09-30</lastmod>
   </url>
   <url>
+    <loc>https://entendes.com.br/estudos/deuteronomio-6-4/</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
     <loc>https://entendes.com.br/estudos/dons-espirituais/</loc>
     <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/efesios-2-8/</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/encarnacao/</loc>
+    <lastmod>2026-10-04</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/escritura-e-tradicao/</loc>
     <lastmod>2026-10-03</lastmod>
   </url>
   <url>
+    <loc>https://entendes.com.br/estudos/espirito-santo/</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/exodo-20-4/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/ezequiel-36-26/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/filipenses-2-12/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/galatas-2-16/</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
     <loc>https://entendes.com.br/estudos/genesis-1-26/</loc>
     <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/genesis-17-7/</loc>
+    <lastmod>2026-10-10</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/genesis-3-15/</loc>
     <lastmod>2026-10-01</lastmod>
   </url>
   <url>
+    <loc>https://entendes.com.br/estudos/graca/</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/hebreus-6-4/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/hebreus-7-24/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/hebreus-9-27/</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
     <loc>https://entendes.com.br/estudos/igreja/</loc>
     <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/isaias-53-5/</loc>
+    <lastmod>2026-10-14</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/isaias-7-14/</loc>
     <lastmod>2026-10-04</lastmod>
   </url>
   <url>
+    <loc>https://entendes.com.br/estudos/jeremias-31-33/</loc>
+    <lastmod>2026-10-16</lastmod>
+  </url>
+  <url>
     <loc>https://entendes.com.br/estudos/joao-1-1/</loc>
     <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/joao-10-28/</loc>
+    <lastmod>2026-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/joao-14-6/</loc>
+    <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/joao-19-26/</loc>
+    <lastmod>2026-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/joao-20-23/</loc>
+    <lastmod>2026-11-01</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/joao-3-5/</loc>
@@ -89,24 +213,68 @@
     <lastmod>2026-09-30</lastmod>
   </url>
   <url>
+    <loc>https://entendes.com.br/estudos/lei-e-evangelho/</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
     <loc>https://entendes.com.br/estudos/lucas-1-28/</loc>
     <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/lucas-23-43/</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/malaquias-1-11/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/marcos-16-17/</loc>
+    <lastmod>2026-11-06</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/maria/</loc>
     <lastmod>2026-09-30</lastmod>
   </url>
   <url>
+    <loc>https://entendes.com.br/estudos/mateus-1-25/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
     <loc>https://entendes.com.br/estudos/mateus-16-18/</loc>
     <lastmod>2026-10-02</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/mateus-25-46/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/mateus-26-26/</loc>
+    <lastmod>2026-11-02</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/mateus-28-19/</loc>
     <lastmod>2026-10-01</lastmod>
   </url>
   <url>
+    <loc>https://entendes.com.br/estudos/ministerio-e-ordenacao/</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/oracao/</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
     <loc>https://entendes.com.br/estudos/pecado-original/</loc>
     <lastmod>2026-10-03</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/predestinacao/</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/romanos-3-25/</loc>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/romanos-3-28/</loc>
@@ -117,47 +285,79 @@
     <lastmod>2026-10-03</lastmod>
   </url>
   <url>
+    <loc>https://entendes.com.br/estudos/romanos-6-3/</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/romanos-8-29/</loc>
+    <lastmod>2026-10-29</lastmod>
+  </url>
+  <url>
     <loc>https://entendes.com.br/estudos/romanos-9-16/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/salmos-110-4/</loc>
+    <lastmod>2026-10-12</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/salmos-51-5/</loc>
     <lastmod>2026-10-02</lastmod>
   </url>
   <url>
+    <loc>https://entendes.com.br/estudos/santificacao/</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/segunda-vinda/</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
     <loc>https://entendes.com.br/estudos/tiago-2-24/</loc>
     <lastmod>2026-10-02</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/tiago-5-14/</loc>
+    <lastmod>2026-10-23</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/estudos/tiago-5-16/</loc>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/estudos/trindade/</loc>
     <lastmod>2026-10-03</lastmod>
   </url>
   <url>
-    <loc>https://entendes.com.br/tradicoes/batista/</loc>
+    <loc>https://entendes.com.br/estudos/vida-apos-a-morte/</loc>
     <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
+    <loc>https://entendes.com.br/tradicoes/batista/</loc>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/tradicoes/catolica/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/tradicoes/luterana/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/tradicoes/metodista/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/tradicoes/ortodoxa/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/tradicoes/pentecostal/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://entendes.com.br/tradicoes/reformada/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
 </urlset>

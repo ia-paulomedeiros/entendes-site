@@ -1217,6 +1217,6284 @@
  ],
  "estudos": [
   {
+   "slug": "galatas-2-16",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Gálatas 2.16: justificação, fé e obras da lei",
+   "tema": null,
+   "referencias": [
+    "GAL.2.16"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-22",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-002",
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, Crisóstomo, Lutero, a Confissão de Westminster, Wesley, o Catecismo Batista e a Declaração de Fé quadrangular afirmam, cada um a seu modo, que a justificação não vem das obras da lei, mas da fé em Cristo e da graça.",
+      "Lutero, a Apologia da Confissão de Augsburgo e Wesley estendem a exclusão das obras também à lei moral, e Haydock diz que nem as obras da lei natural bastam por si mesmas para justificar."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-003",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-002",
+      "PEN-003",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock afirma que Paulo não ensina que a fé sozinha basta e fala da fé que opera pela caridade, enquanto Lutero fala de ser declarado justo só pela fé em Cristo e o Catecismo Maior de Westminster vê nas boas obras frutos da fé, que justifica só como instrumento.",
+      "Sobre a justiça que justifica, a Apologia diz que a própria fé é imputada como justiça, a Confissão de Westminster recusa imputar a fé e fala da imputação da obediência e da satisfação de Cristo, e Haydock, com Agostinho, fala da justiça que está no homem vinda de Deus e por seus dons."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-003",
+      "COM-008",
+      "LUT-003",
+      "PEN-002",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "1-pedro-3-21",
+   "versao": 2,
+   "tipo": "passagem",
+   "titulo": "1 Pedro 3.21: o batismo que agora salva",
+   "tema": null,
+   "referencias": [
+    "1PE.3.21"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-21",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-002",
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Várias fontes ligam o batismo à participação na morte e na ressurreição de Cristo e a uma vida nova, como Crisóstomo, os Artigos de Visitação luteranos, Hodge, a confissão dos batistas particulares e a declaração quadrangular.",
+      "Diversas fontes distinguem, como o próprio versículo, a lavagem do corpo daquilo que dá eficácia ao batismo: Haydock fala da purificação da consciência, os Artigos de Visitação da lavagem dos pecados, Wesley da graça interior e o Catecismo Maior de Westminster de uma graça interior significada pelo sinal."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "PEN-003",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "As fontes se afastam sobre o lugar do batismo na salvação: para Haydock ninguém entra no céu sem ele ou sem o desejo dele, os Artigos de Visitação dizem que por ele Deus salva, ressalvado o caso de necessidade, e Hodge lhe atribui necessidade de preceito, e não de meio sine qua non.",
+      "A confissão dos batistas particulares e a declaração quadrangular descrevem o batismo como sinal ou emblema da união com Cristo e da vida nova, enquanto Crisóstomo o apresenta como morte real ao pecado em que o Espírito refunde a alma e consome seus pecados."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "LUT-003",
+      "ORT-001",
+      "PEN-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "romanos-6-3",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Batizados na morte de Cristo (Romanos 6.3)",
+   "tema": null,
+   "referencias": [
+    "ROM.6.3"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-20",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-002",
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, Crisóstomo, os Artigos de Visitação luteranos, a Confissão de Westminster, Wesley, a Segunda Confissão de Londres e a Declaração quadrangular associam o batismo à morte de Cristo e a uma vida nova para o batizado.",
+      "Várias fontes recorrem à imagem do enxerto em Cristo: Haydock fala de ramos enxertados, Wesley de enxerto pela fé no batismo, e a Confissão de Westminster e a Segunda Confissão de Londres do batismo como sinal desse enxerto."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "PEN-003",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Catecismo Romano afirma que o batismo realiza na alma o que significa, e os Artigos de Visitação luteranos dizem que por ele Deus nos salva, enquanto Hodge sustenta que o rito não assegura sempre a regeneração e trata o batismo como sinal e selo da união com Cristo.",
+      "A Segunda Confissão de Londres descreve o batismo como sinal, e a Declaração quadrangular como sinal exterior de uma obra interior, ao passo que Crisóstomo atribui ao próprio batismo o sepultamento dos pecados anteriores como dom de Cristo."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "PEN-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "colossenses-2-12",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Colossenses 2.12: sepultados e ressuscitados com Cristo no batismo",
+   "tema": null,
+   "referencias": [
+    "COL.2.12"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-19",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Em todas as tradições com material, o batismo é relacionado à participação na morte, no sepultamento ou na ressurreição de Cristo e a uma vida nova, seja em Haydock e Crisóstomo, seja no Catecismo Maior luterano, em Hodge, em Wesley ou no Catecismo Batista.",
+      "Crisóstomo, Hodge e Wesley associam a ressurreição com Cristo à fé e à ação ou ao poder de Deus, e Lutero, a Gálatas, atribui a Deus o revestimento da justiça de Cristo pelo batismo."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-003",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Sobre o modo, Haydock e Wesley veem no texto uma alusão à imersão, mas Wesley diz que o texto não dá peso ao modo, Hodge entende que a referência é ao efeito e não ao modo, e o Catecismo Batista de 1695 ensina que o batismo é corretamente administrado por imersão de todo o corpo.",
+      "As fontes descrevem a relação entre o rito e seus efeitos com vocabulário diferente: o Catecismo Romano fala da remissão dos pecados e das penas no batismo, o Catecismo Maior luterano diz que ele produz a vida nova, a Confissão de Westminster o chama de sinal e selo do pacto da graça e a Segunda Confissão de Londres, de sinal da comunhão com Cristo."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "joao-14-6",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "João 14.6: Cristo, o caminho, a verdade e a vida",
+   "tema": null,
+   "referencias": [
+    "JHN.14.6"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-18",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Cirilo de Alexandria, a Fórmula de Concórdia, Lutero, o Catecismo Maior de Westminster e a Segunda Confissão Batista de Londres relacionam o acesso a Deus à mediação de Cristo, apresentado como aquele por quem se chega ao Pai.",
+      "O Catecismo Romano, Cirilo de Alexandria e Charles Hodge associam a afirmação de que Cristo é a verdade à confiabilidade do que Deus revela e promete: o Catecismo fala de Deus como a própria verdade, Cirilo apoia nela a palavra de Cristo sobre o Filho e Hodge vê em Cristo o cumprimento das promessas divinas."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-003",
+      "COM-008",
+      "LUT-003",
+      "ORT-002",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock e o Catecismo Romano associam o versículo à presença de Cristo com os pastores da Igreja e à autoridade do ensino da Igreja, enquanto a Confissão de Augsburgo o cita para contrapor o caminho a Deus por Cristo à confiança no mérito das obras.",
+      "Ao tratar da eleição, a Fórmula de Concórdia destaca que Cristo testemunha a todos sem distinção a vontade de Deus de que venham a ele, enquanto a Confissão de Westminster destaca que os não eleitos, mesmo chamados pela Palavra, nunca vêm verdadeiramente a Cristo."
+     ],
+     "fontes": [
+      "CAT-002",
+      "COM-002",
+      "LUT-003",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hebreus-9-27",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Hebreus 9.27: a morte e o juízo",
+   "tema": null,
+   "referencias": [
+    "HEB.9.27"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-17",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Catecismo Romano, Cirilo de Alexandria, a Confissão de Westminster, John Wesley e a Segunda Confissão Batista de Londres falam de um juízo final que alcança todas as pessoas diante do tribunal de Deus ou de Cristo.",
+      "O Catecismo Romano, o Catecismo Maior de Westminster e O Peregrino, de John Bunyan, retomam a linguagem de Hebreus 9.27 para lembrar que a morte é determinada a todos."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "ORT-002",
+      "PRE-003",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Sobre o que acontece logo após a morte, o Catecismo Romano ensina um juízo particular imediato diante do tribunal de Deus, enquanto John Wesley, embora diga que o estado final se decide na morte, observa que a Escritura não fala de um juízo particular imediatamente depois dela.",
+      "Enquanto o Catecismo Romano chama de juízo particular o exame de cada um ao deixar esta vida, as confissões de Westminster e de Londres descrevem esse momento como o retorno imediato da alma a Deus, com os justos recebidos nos céus ou no paraíso e os ímpios no inferno, reservados ao juízo do grande dia."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-008",
+      "ORT-001",
+      "PRE-003",
+      "PUR-001"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "lucas-23-43",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Lucas 23.43: o paraíso prometido ao ladrão",
+   "tema": null,
+   "referencias": [
+    "LUK.23.43"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-16",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Os autores e documentos citados das cinco tradições com material entendem que a promessa diz respeito à alma, que, separada do corpo, já está com Cristo no paraíso antes da ressurreição.",
+      "Haydock, a Confissão Ortodoxa e Hodge aproximam o paraíso prometido ao ladrão do seio de Abraão, embora o relacionem de modos diferentes com o céu."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "ORT-006",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Quanto ao caminho de Cristo após a morte, o Catecismo Romano ensina que o céu esteve fechado até sua morte e ressurreição e que a promessa ao ladrão se cumpriu quando ele desceu aos infernos e levou os justos à visão de Deus, enquanto Wesley afirma que não parece que Cristo tenha ido ao inferno, pois sua alma foi ao paraíso.",
+      "Wesley descreve o paraíso como o lugar onde as almas dos justos permanecem até a ressurreição, enquanto Hodge o identifica com o terceiro céu e a Confissão de Westminster fala de as almas dos justos serem recebidas nos mais altos céus."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-008",
+      "ORT-006",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "mateus-25-46",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Mateus 25.46: punição eterna e vida eterna",
+   "tema": null,
+   "referencias": [
+    "MAT.25.46"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-15",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": "quadrangular",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Em todas as tradições com material, as fontes tratam como eterna a condenação dos que estão afastados de Deus, seja comentando diretamente Mateus 25.46, seja em confissões e catecismos.",
+      "Várias fontes situam o versículo no juízo final, com a separação entre justos e ímpios e o fogo preparado para o diabo e seus anjos."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-003",
+      "COM-008",
+      "LUT-003",
+      "ORT-006",
+      "PEN-003",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Sobre o lugar das obras, o Catecismo Romano fala da bem-aventurança merecida pelos ofícios da caridade e a Confissão Ortodoxa de recompensa conforme o mérito, enquanto a Apologia luterana entende as obras citadas no juízo como frutos da fé que não são por si mesmas dignas da vida eterna.",
+      "Quanto ao tempo das penas, a Segunda Confissão Batista de Londres diz que as almas dos ímpios estão em tormento logo após a morte, a Confissão Ortodoxa diz que não sofrem a medida plena antes do juízo, e Wesley destaca que a punição de que fala o versículo só começa no fim do mundo."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-006"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "1-tessalonicenses-4-17",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "1 Tessalonicenses 4.17: arrebatados ao encontro do Senhor",
+   "tema": null,
+   "referencias": [
+    "1TH.4.17"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-15",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Catecismo Maior de Westminster, Wesley e Bunyan associam o encontro com o Senhor ao juízo e descrevem os justos tomando parte nele: o Catecismo diz que julgarão com Cristo, Wesley os chama assessores do Senhor e Bunyan fala em terem voz no juízo.",
+      "Crisóstomo, Wesley e Hodge, cada um a seu modo, não leem no texto que Paulo afirmasse estar vivo na vinda ou que ela fosse imediata: os dois primeiros entendem o nós como fala em nome dos fiéis, e Hodge sustenta que os apóstolos não sabiam quando ela ocorreria."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-008",
+      "ORT-001",
+      "PRE-003",
+      "PRE-005",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "A Confissão de Westminster fala dos que forem achados vivos no último dia, sem especificar, enquanto a Segunda Confissão de Londres, em frase quase idêntica, fala dos santos que forem achados vivos.",
+      "As ênfases diferem: Crisóstomo exorta a não investigar com curiosidade o céu e a refrear os raciocínios diante do poder de Deus, ao passo que Hodge, ao comparar o texto com o arrebatamento de Paulo, precisa que o céu, embora seja um estado, é também um lugar."
+     ],
+     "fontes": [
+      "CNF-001",
+      "ORT-001",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "apocalipse-20-4",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Apocalipse 20.4: tronos, juízo e o reinado com Cristo",
+   "tema": null,
+   "referencias": [
+    "REV.20.4"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-13",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O comentário de Haydock, o Catecismo Maior de Westminster e Wesley associam os justos ao juízo, seja como revestidos de um poder espiritual semelhante ao de Cristo, seja unindo-se a ele no julgamento de anjos e homens, seja como seus assessores.",
+      "Com acentos diferentes, Haydock, o Catecismo Maior, Wesley e Bunyan descrevem os fiéis, incluindo os que sofreram por sua fé, num estado de felicidade junto de Deus, seja no céu, seja revestidos de imortalidade."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "PRE-003",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Wesley distribui os acontecimentos de Apocalipse 20 entre dois períodos de mil anos e situa o reinado dos mártires no céu, com alma e corpo reunidos, antes da ressurreição geral, enquanto o Catecismo Maior de Westminster descreve a participação dos justos no juízo e sua recepção no céu como acontecimentos da ressurreição e do dia do juízo."
+     ],
+     "fontes": [
+      "COM-008",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "joao-19-26",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "João 19.26: Jesus confia a mãe ao discípulo",
+   "tema": null,
+   "referencias": [
+    "JHN.19.26"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-12",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, Crisóstomo e Wesley ligam João 19.26 ao modo como Jesus se dirige à mãe: Haydock e Crisóstomo destacam que ele fala a ela da cruz e a confia ao discípulo, e Wesley associa o versículo ao tratamento usado em Caná.",
+      "Haydock e Crisóstomo veem na cena o cuidado de Jesus com a mãe, e Haydock se apoia em Crisóstomo para tirar dela uma lição sobre o dever para com os pais."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock tira da passagem uma lição de respeito e confiança para com a Virgem Mãe, ao passo que Wesley, ao comentar o mesmo tratamento em Caná, enfatiza que Jesus punha o Pai acima de tudo e propõe não se dirigir a Maria como se ela pudesse mandar nele na glória.",
+      "Sobre a relação entre Maria e os discípulos, Wesley lê a preferência de Jesus por eles como precaução contra honras a ela que ele rejeita, enquanto Crisóstomo, ao tratar da mesma relação, sublinha que Jesus não nega o parentesco natural e presta à mãe a honra devida."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "ORT-001"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "mateus-1-25",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Mateus 1.25: o até e o primogênito",
+   "tema": null,
+   "referencias": [
+    "MAT.1.25"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-11",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, Crisóstomo e Wesley leem o até de Mateus 1.25 como indicação do que ocorreu antes do parto, sem implicar que José tenha conhecido Maria depois, e recorrem a outros usos da Escritura para sustentar essa leitura.",
+      "Haydock e Wesley entendem que primogênito pode designar também um filho único, sem supor filhos posteriores."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Sobre os irmãos do Senhor, Crisóstomo os entende como chamados assim do mesmo modo que José era tido por marido de Maria, enquanto Hodge considera muito difícil decidir se eram filhos de José e Maria ou de uma irmã da mãe do Senhor.",
+      "Crisóstomo e Haydock, este retomando Agostinho, descrevem José e Maria vivendo sem se conhecer também depois do parto, ao passo que Hodge deixa a questão em aberto, notando que a tradição favorece uma opinião e a maioria dos comentadores modernos provavelmente a outra."
+     ],
+     "fontes": [
+      "COM-002",
+      "ORT-001",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "2-tessalonicenses-2-15",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "2 Tessalonicenses 2.15: as tradições recebidas por palavra e por carta",
+   "tema": null,
+   "referencias": [
+    "2TH.2.15"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-10",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, Crisóstomo, a Confissão Ortodoxa e Wesley ligam a tradição àquilo que foi recebido dos apóstolos e destacam a permanência dos fiéis nesse ensino recebido.",
+      "Crisóstomo, a Confissão Ortodoxa e Wesley notam que o ensino apostólico chegou aos fiéis por dois meios, a palavra falada e a carta."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Crisóstomo e a Confissão Ortodoxa extraem do versículo que muitas coisas foram transmitidas sem escrita e estendem o crédito à tradição da Igreja, aos concílios e aos Padres, ao passo que Wesley identifica as tradições com as verdades que Paulo transmitiu e observa que o apóstolo já havia escrito sobre esse assunto na epístola anterior."
+     ],
+     "fontes": [
+      "COM-008",
+      "ORT-001",
+      "ORT-006"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "2-timoteo-3-16",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "2 Timóteo 3.16: a Escritura inspirada e seus usos",
+   "tema": null,
+   "referencias": [
+    "2TI.3.16"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-09",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, a Fórmula de Concórdia, a Confissão de Westminster, Wesley e a Segunda Confissão Batista de Londres tratam a Escritura como inspirada por Deus e útil ou normativa para a doutrina e a vida cristã.",
+      "Haydock, a Fórmula de Concórdia e Wesley aplicam as funções de repreender, corrigir e formar na justiça à vida dos crentes ou ao trabalho de quem ensina outros."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock entende que o versículo mostra que toda a Escritura é proveitosa, mas não que só ela seja necessária e suficiente, e o Catecismo Romano fala da palavra de Deus dividida em Escritura e Tradição, enquanto, entre os batistas particulares, a Segunda Confissão de Londres chama a Escritura de única regra suficiente, certa e infalível.",
+      "Para Haydock, a regra completa da fé inclui a interpretação da Igreja, ao passo que a Confissão de Westminster, entre os presbiterianos, e a Segunda Confissão de Londres, entre os batistas particulares, afirmam que a autoridade da Escritura não depende do testemunho de homem ou igreja, mas inteiramente de Deus."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "1-timoteo-3-15",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "1 Timóteo 3.15: a casa de Deus, coluna e fundamento da verdade",
+   "tema": null,
+   "referencias": [
+    "1TI.3.15"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-08",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Catecismo Romano, a Confissão Ortodoxa de Pedro Mogila e John Wesley leem a casa de Deus de 1 Timóteo 3.15 como a Igreja.",
+      "Haydock e a Confissão Ortodoxa ligam a condição da Igreja como coluna e fundamento da verdade à guia contínua do Espírito Santo sobre ela."
+     ],
+     "fontes": [
+      "CAT-002",
+      "COM-002",
+      "COM-008",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Catecismo Romano usa a imagem da casa para concluir pela existência de uma cabeça visível da Igreja, o sucessor de Pedro na cátedra romana, enquanto a Confissão Ortodoxa usa o mesmo versículo para fundamentar a autoridade da Igreja em seus concílios gerais, inclusive para julgar patriarcas e papas.",
+      "Na nota de Wesley, o versículo serve para identificar a casa de Deus com a igreja e Deus como senhor da família, ao passo que Haydock e a Confissão Ortodoxa o usam para tratar da autoridade da Igreja em relação à verdade."
+     ],
+     "fontes": [
+      "CAT-002",
+      "COM-002",
+      "COM-008",
+      "ORT-006"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tiago-5-16",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Tiago 5.16: confissão mútua e oração uns pelos outros",
+   "tema": null,
+   "referencias": [
+    "JAS.5.16"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-07",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-001",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O comentário de Haydock, a Confissão Ortodoxa e Wesley leem o pedido de orar uns pelos outros como chamado à intercessão mútua entre os fiéis, seja como dever cristão dos mais necessários, como fruto de terem Deus por Pai comum ou em vista da cura espiritual.",
+      "Haydock, a Confissão Ortodoxa, a Apologia luterana, a Confissão de Westminster e Wesley tratam a confissão dos pecados como prática da vida cristã que envolve não só Deus, mas também outras pessoas, ainda que entendam de modos diferentes a quem ela se dirige."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-006",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Quanto a quem se confessa, uma nota do comentário de Haydock lê uns aos outros como referência aos sacerdotes da Igreja, embora o próprio comentário registre que a leitura sacramental não é certa, e a Confissão Ortodoxa cita o versículo para a confissão no mistério da penitência, enquanto a Apologia luterana o entende como confissão mútua entre irmãos e Wesley como confissão a qualquer pessoa que possa orar com fé, sem mandamento de fazê-la aos presbíteros.",
+      "Sobre a forma da confissão, a Confissão Ortodoxa pede confissão exata e particular de todos os pecados e o Catecismo Romano a inclui entre as partes da penitência, ao passo que a Apologia luterana afirma que a absolvição não exige exame judicial e a Breve exortação à confissão de Lutero apresenta a confissão secreta a um irmão como não imposta por mandamento."
+     ],
+     "fontes": [
+      "CAT-002",
+      "COM-002",
+      "COM-008",
+      "LUT-001",
+      "LUT-003",
+      "ORT-006",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "marcos-16-17",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Marcos 16.17: os sinais que seguem os que creem",
+   "tema": null,
+   "referencias": [
+    "MRK.16.17"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-06",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-002",
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, Cirilo de Alexandria, Wesley e Wigglesworth ligam o poder sobre os espíritos malignos e as curas ao nome ou à autoridade de Cristo, como algo concedido por ele e não como capacidade própria de quem os realiza.",
+      "Em várias fontes a fé aparece ligada aos sinais: Haydock atribui um fracasso dos apóstolos à fé insuficiente, Cirilo diz que o milagre conduz à fé, Wesley afirma que a palavra e a fé vêm antes dos sinais e a Declaração quadrangular fala de cura em resposta à oração com fé."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "ORT-002",
+      "PEN-002",
+      "PEN-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Cirilo destaca que os sinais confirmavam a missão dos enviados de Cristo e Hodge os relaciona ao cumprimento das promessas no Pentecostes e à igreja apostólica, enquanto o autor citado por Wesley fala de um poder latente em todo crente ainda hoje, Wigglesworth afirma que esse poder não ficou restrito ao primeiro século e a Declaração quadrangular sublinha que Cristo não mudou.",
+      "Quanto às condições, Haydock, seguindo Calmet, diz que nem todos os demônios eram igualmente fáceis de expulsar e menciona oração e jejum, enquanto Wigglesworth enfatiza que, porque Cristo tomou sobre si as enfermidades, a obra já está feita para quem crê."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "ORT-002",
+      "PEN-002",
+      "PEN-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "1-corintios-14-2",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "1 Coríntios 14.2: falar em língua a Deus",
+   "tema": null,
+   "referencias": [
+    "1CO.14.2"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-05",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-002"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, Crisóstomo, a Confissão de Augsburgo, Hodge e Wigglesworth concordam que quem fala em língua não é entendido pelos ouvintes e que, na assembleia, importa o que edifica os outros, seja pelo dom de interpretar, pela profecia, por uma língua entendida pelo povo ou pelo cuidado com o uso sem intérprete.",
+      "Haydock, Crisóstomo, Hodge, Wesley e Wigglesworth leem o versículo como fala dirigida a Deus, e quase todos eles a associam a mistérios ditos em espírito."
+     ],
+     "fontes": [
+      "CAT-002",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "PEN-002",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Sobre a natureza das línguas, Crisóstomo fala de um só homem que falava várias línguas, como o persa e o indiano, Hodge sustenta que eram idiomas estrangeiros inteligíveis em si mesmos, e Wigglesworth as descreve como meio sobrenatural de comunicação com Deus no Espírito e evidência do batismo no Espírito.",
+      "Sobre se o próprio falante entendia, Haydock admite que talvez às vezes não entendesse, Wesley, em nota a Lucas 19.37, fala de palavras ditas ao que parece por impulso divino que a maioria dos falantes não entendia, e Hodge sustenta que as línguas eram inteligíveis para quem falava."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "PEN-002",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "1-corintios-12-10",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "1 Coríntios 12.10: os dons do Espírito entre as tradições",
+   "tema": null,
+   "referencias": [
+    "1CO.12.10"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-04",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-002",
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, Crisóstomo, Hodge e a Declaração de Fé quadrangular atribuem a diversidade dos dons a um só e mesmo Espírito, que os reparte a cada um como quer.",
+      "Haydock, Crisóstomo, Wesley, Wigglesworth e a Declaração de Fé quadrangular ligam os dons ao proveito dos outros e à edificação da comunidade."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "PEN-002",
+      "PEN-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock liga a recepção dos dons, no tempo dos apóstolos, aos sacramentos do batismo e da confirmação, enquanto Wigglesworth fala de línguas recebidas no batismo no Espírito Santo e de um dom de línguas distinto, recebido depois.",
+      "Sobre a profecia, Wesley a explica como predição do futuro, Haydock atribui aos profetas interpretar profecias e conhecer coisas futuras, Hodge diz que ela não tratava só nem geralmente do futuro, e Wigglesworth a descreve como recepção do pensamento do Senhor para edificação."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "PEN-002",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "atos-2-4",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Atos 2.4: cheios do Espírito, falando em outras línguas",
+   "tema": null,
+   "referencias": [
+    "ACT.2.4"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-03",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-002",
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Na leitura que Haydock atribui a Agostinho e à maioria, assim como em Crisóstomo, Hodge e Wesley, as línguas de Atos 2 aparecem como idiomas reais, falados por quem recebeu o dom.",
+      "Haydock, Crisóstomo, Lutero e Hodge tratam as línguas como sinal perceptível da presença ou da ação do Espírito, dirigido sobretudo à multidão ou aos de fora."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-003",
+      "COM-008",
+      "ORT-001",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Crisóstomo diz que esses dons já não ocorriam em seu tempo e Lutero, que a aparição visível do Espírito cessou após a implantação da Igreja, enquanto a Declaração de Fé quadrangular afirma que esta ainda é a dispensação do Espírito e Wigglesworth toma Atos 2.4 como padrão a ser recebido hoje.",
+      "Quanto ao lugar do milagre, Haydock registra, com um talvez, a hipótese de que estivesse na compreensão dos ouvintes, ao passo que Wesley o situa na boca dos que falavam e Hodge, na capacidade de falar idiomas nunca aprendidos."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-003",
+      "COM-008",
+      "ORT-001",
+      "PEN-002",
+      "PEN-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "mateus-26-26",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Mateus 26.26: Isto é o meu corpo nas tradições cristãs",
+   "tema": null,
+   "referencias": [
+    "MAT.26.26"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-02",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-001",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, a Confissão Ortodoxa, o Catecismo Menor de Lutero, o Catecismo Maior de Westminster, Wesley e o Catecismo Batista ligam as palavras de Mateus 26.26 à instituição feita por Cristo e à lembrança de sua morte.",
+      "O Catecismo Romano, a Confissão Ortodoxa e a Fórmula de Concórdia afirmam a presença verdadeira do corpo e do sangue de Cristo no sacramento."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-001",
+      "LUT-003",
+      "ORT-006",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Quanto ao sentido de é, o Catecismo Romano e a Confissão Ortodoxa falam de mudança da substância do pão e do vinho, a Fórmula de Concórdia lê as palavras sem tropo nem figura e Lutero fala do corpo e do sangue em e sob o pão e o vinho, enquanto a Confissão de Westminster diz que os elementos permanecem pão e vinho e Hodge e Wesley leem o pão como símbolo ou sinal do corpo.",
+      "Haydock e a Confissão Ortodoxa descrevem a Eucaristia como sacrifício, ao passo que a Segunda Confissão de Londres ensina que na Ceia não há sacrifício real, mas memorial da única oferta de Cristo na cruz."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-001",
+      "LUT-003",
+      "ORT-006",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "joao-20-23",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "João 20.23: perdoar e reter pecados",
+   "tema": null,
+   "referencias": [
+    "JHN.20.23"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-11-01",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-001",
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Concílio de Trento, a Confissão Ortodoxa, o Livro de Concórdia, a Confissão de Westminster e John Wesley leem João 20.23 como um poder ou ofício confiado por Cristo em relação a perdoar e reter pecados.",
+      "Haydock, a Confissão Ortodoxa, a Confissão de Westminster e Wesley ligam o perdão ou a retenção dos pecados à disposição de quem os confessa, distinguindo penitentes e impenitentes."
+     ],
+     "fontes": [
+      "CAT-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Quanto a quem recebe o poder, o Catecismo Romano diz que as palavras foram dirigidas só aos apóstolos, sucedidos pelos sacerdotes, o Livro de Concórdia afirma que as chaves pertencem imediatamente à Igreja, e a Confissão de Westminster as atribui aos oficiais da igreja.",
+      "Trento e a Confissão Ortodoxa veem no versículo a base da absolvição sacramental dada pelo sacerdote, enquanto Wesley sugere que a comissão talvez signifique declarar com autoridade os termos do perdão e aplicar censuras eclesiásticas."
+     ],
+     "fontes": [
+      "CAT-001",
+      "CAT-002",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-006",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "romanos-9-16",
+   "versao": 3,
+   "tipo": "passagem",
+   "titulo": "Romanos 9.16: não depende de quem quer nem de quem corre",
+   "tema": null,
+   "referencias": [
+    "ROM.9.16"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-31",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, a Fórmula de Concórdia, Hodge e Wesley atribuem o que Romanos 9.16 descreve à misericórdia ou à graça de Deus, e não à vontade ou às obras humanas, embora cada um nomeie de modo próprio aquilo de que o versículo trata.",
+      "A Confissão de Westminster e a Segunda Confissão Batista de Londres, em textos muito próximos, afirmam que a escolha dos predestinados à vida procede da mera graça e amor de Deus, sem condição ou causa na criatura."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "As fontes destacam objetos diferentes no versículo: Haydock fala do chamado e da predestinação dos que Deus decretou salvar, Hodge da admissão no reino do Messias, Wesley da bênção estendida a todos os filhos espirituais de Abraão e a Fórmula de Concórdia da conversão.",
+      "A Fórmula de Concórdia põe o acento na conversão operada pelo Espírito por meio da pregação e da audição da Palavra, ao passo que a Confissão de Westminster e a Segunda Confissão de Londres põem o acento na escolha eterna feita antes da fundação do mundo e não baseada no que Deus previu."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "1-timoteo-2-4",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "1 Timóteo 2.4: Deus quer que todos sejam salvos",
+   "tema": null,
+   "referencias": [
+    "1TI.2.4"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-30",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, a Confissão Ortodoxa, a Fórmula de Concórdia e Wesley leem 1 Timóteo 2.4 ou textos paralelos como expressão de que Deus quer a salvação de todos, e a Confissão Ortodoxa e a Fórmula de Concórdia o associam a Ezequiel 33.11.",
+      "Várias fontes sublinham que a vinda à salvação não é forçada: Wesley diz que as pessoas não são compelidas, Haydock afirma que a vontade eficaz de salvar os eleitos não prejudica o livre-arbítrio, e a Segunda Confissão de Londres diz que os chamados vêm com toda liberdade, tornados dispostos pela graça."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-006",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Para explicar por que nem todos se salvam, Haydock distingue vontade absoluta e condicional, ou antecedente e consequente, enquanto Crisóstomo distingue querer e operar e situa a questão entre as que pedem fé mais do que raciocínio.",
+      "A Fórmula de Concórdia desaconselha investigar o conselho secreto de Deus sobre a predestinação e remete a Cristo e aos meios da Palavra e dos sacramentos, ao passo que a Segunda Confissão de Londres descreve o chamado eficaz dirigido aos que Deus predestinou para a vida."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-003",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "romanos-8-29",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Romanos 8.29: presciência, predestinação e a imagem do Filho",
+   "tema": null,
+   "referencias": [
+    "ROM.8.29"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-29",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, Crisóstomo, Hodge e Wesley associam a conformidade à imagem do Filho à semelhança dos fiéis com Cristo, e Haydock e Hodge incluem nela a participação em seus sofrimentos.",
+      "O Catecismo Romano e Crisóstomo entendem o título de primogênito entre muitos irmãos como dito de Cristo em sua humanidade, já que segundo a divindade ele é o Unigênito."
+     ],
+     "fontes": [
+      "CAT-002",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Sobre conhecer de antemão, a Confissão Ortodoxa o descreve como simples conhecimento do futuro que não determina o que acontecerá, Haydock inclui nele um ato da vontade e do amor de Deus, e Hodge o entende como amor que escolhe, sem apoio na fé prevista.",
+      "Wesley descreve o propósito de Deus de conceder a filiação a todos os que viessem a crer, enquanto a Confissão de Westminster nega previsão de fé, obras ou perseverança como condições da escolha e a Segunda Confissão de Londres nega qualquer coisa na criatura como condição."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hebreus-6-4",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Hebreus 6.4: os que foram iluminados",
+   "tema": null,
+   "referencias": [
+    "HEB.6.4"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-28",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, Wesley e a Confissão de Westminster relacionam, cada um a seu modo, as experiências espirituais em questão à ação do Espírito Santo: graças interiores e dons miraculosos, o testemunho e o fruto do Espírito, ou operações comuns do Espírito.",
+      "Haydock e o Catecismo Romano, de um lado, e o Catecismo Maior de Westminster, de outro, tratam com especial gravidade a queda ou a recaída de quem já recebeu graça."
+     ],
+     "fontes": [
+      "CAT-002",
+      "COM-002",
+      "COM-008",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock considera preferível ler a iluminação de Hebreus 6.4 como referência ao batismo, enquanto Wesley a entende como a luz do amor de Deus em Cristo, ligada à remissão dos pecados e ao testemunho do Espírito.",
+      "Para Haydock, nunca é impossível aos maiores pecadores arrepender-se com a ajuda de Deus, e o perdão continua disponível na penitência, ao passo que os padrões de Westminster ensinam que não eleitos que tiveram operações comuns do Espírito nunca vêm verdadeiramente a Cristo."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "joao-10-28",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "João 10.28: ninguém as arrebatará da minha mão",
+   "tema": null,
+   "referencias": [
+    "JHN.10.28"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-27",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-002",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005",
+      "REF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Várias fontes leem a imagem da mão como proteção ativa: para Crisóstomo a mão de Deus é forte, a Fórmula de Concórdia fala da mão todo-poderosa de Cristo e Wesley diz que nem homens nem demônios podem arrancar dela os que seguem Cristo.",
+      "Haydock, a Confissão de Westminster, a Fórmula de Concórdia e a Segunda Confissão Batista de Londres associam a passagem, cada um a seu modo, à eleição divina e à perseverança na graça."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-002",
+      "PRE-003",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Crisóstomo diz que quem se afasta da mão de Deus fica perdido, e Wesley condiciona a promessa de não perecer a permanecer no amor de Cristo, enquanto a Confissão de Westminster e a Segunda Confissão Batista de Londres afirmam que os chamados eficazmente não podem cair total nem finalmente do estado de graça.",
+      "As fontes descrevem de modos diferentes o fundamento dessa segurança: Westminster a apoia no decreto de eleição e não no livre-arbítrio, a Fórmula de Concórdia a situa na eleição graciosa revelada em Cristo, que chama todos os pecadores, e Wesley fala de um decreto imutável pelo qual o Pai deu ao Filho todos os que creem, amam e obedecem."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "filipenses-2-12",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Filipenses 2.12: operar a salvação com temor e tremor",
+   "tema": null,
+   "referencias": [
+    "PHP.2.12"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-26",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Crisóstomo, a Confissão de Westminster, Hodge e Wesley ligam a exortação a operar a salvação à ação de Deus no fiel, sem que essa ação dispense o empenho humano.",
+      "Haydock e Crisóstomo afastam do temor e tremor o desespero, Haydock e Hodge o distinguem de um temor servil, e Hodge e Wesley o descrevem como solicitude, cuidado e diligência."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Wesley e Hodge descrevem o temor e tremor sobretudo como cuidado, diligência e solicitude em fazer o que é certo, enquanto Crisóstomo fala de um grau intenso de temor diante do Deus presente e do risco de cair, e o comentário de Haydock o associa ao temor salutar dos juízos de Deus.",
+      "A Confissão de Westminster e Crisóstomo formulam de modos diferentes a relação entre vontade humana e ação divina: a Confissão atribui inteiramente ao Espírito de Cristo a capacidade para as boas obras, e Crisóstomo diz que Deus aumenta a vontade de quem já a tem, deixando aberta a leitura de que Paulo fale assim por excesso de piedade."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tiago-5-14",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Tiago 5.14: a unção dos enfermos pelos presbíteros",
+   "tema": null,
+   "referencias": [
+    "JAS.5.14"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-23",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-001",
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-002",
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Concílio de Trento, a Confissão Ortodoxa, Wesley e Wigglesworth leem Tiago 5.14 como instrução para que os presbíteros da Igreja orem pelo enfermo e o unjam com óleo, prática que não restringem à época apostólica.",
+      "O Concílio de Trento, a Confissão Ortodoxa e Wesley ligam a unção de Tiago ao relato de Marcos sobre os discípulos que ungiam enfermos."
+     ],
+     "fontes": [
+      "CAT-001",
+      "CAT-002",
+      "COM-008",
+      "ORT-006",
+      "PEN-002",
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Para o Catecismo Romano e a Confissão Ortodoxa, a unção é sacramento ou Mistério administrado por sacerdotes, enquanto Wesley a descreve como dom de cura confiado aos presbíteros por serem homens dotados e Wigglesworth fala dos presbíteros da igreja que ungem e oram com fé.",
+      "Haydock destina o sacramento a quem está em perigo de morte por doença, embora lhe atribua também a restituição da saúde quando convém à alma, enquanto Wesley contrapõe a unção de Tiago, usada como meio de saúde, à extrema-unção, que ele descreve como aplicada só quando não há esperança de vida."
+     ],
+     "fontes": [
+      "CAT-002",
+      "COM-002",
+      "COM-008",
+      "ORT-006",
+      "PEN-002",
+      "PEN-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "1-corintios-3-15",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "1 Coríntios 3.15: salvo como que pelo fogo",
+   "tema": null,
+   "referencias": [
+    "1CO.3.15"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-22",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock e Wesley associam o fogo ao juízo do dia do Senhor e o tratam como figura: para Haydock, a metáfora dos juízos justos e severos de Deus; para Wesley, o processo rigoroso daquele dia.",
+      "Haydock, Crisóstomo e Wesley descrevem um juízo divino que examina as obras, as doutrinas ou as intenções de cada pessoa."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock lê no fogo que pune e depois salva uma base para a doutrina do purgatório, enquanto Wesley entende que o fogo do texto só existe no dia do juízo e, por isso, não sustenta essa doutrina.",
+      "Para Haydock, a perda envolve uma punição temporária antes da recompensa no céu, ao passo que, para Wesley, ela é a perda de um grau peculiar de glória."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "malaquias-1-11",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Malaquias 1.11: a oferta pura entre as nações",
+   "tema": null,
+   "referencias": [
+    "MAL.1.11"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-20",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, a Apologia da Confissão de Augsburgo e Wesley relacionam a oferta de Malaquias 1.11 ao culto cristão e incluem nela, de formas diferentes, a oração e o louvor ou a ação de graças.",
+      "A amplitude universal do culto aparece em todas as tradições com material: Haydock fala de um sacrifício oferecido diariamente em todo o mundo, a Apologia do nome do Senhor engrandecido entre os gentios, Wesley de adoradores vindos de todas as partes, e as confissões de Westminster e de Londres de um culto que não está preso a lugar algum."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Para Haydock, a oblação pura é o sacrifício eucarístico do corpo e do sangue de Cristo, enquanto a Apologia da Confissão de Augsburgo a entende como todos os sacrifícios pelos quais o nome do Senhor se engrandece, como a fé, a invocação e a pregação, e Wesley vê nela as orações, os louvores e todo o culto do evangelho.",
+      "A Apologia admite que a recepção da ceia do Senhor seja louvor ou ação de graças, desde que não se tome a cerimônia como justificante ex opere operato nem como aplicável a outros para lhes merecer a remissão dos pecados, ao passo que Haydock descreve o sacrifício que Cristo continua a oferecer na Igreja Católica por sacerdotes que são seus ministros."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "LUT-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "efesios-2-8",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Efésios 2.8: salvos pela graça, por meio da fé",
+   "tema": null,
+   "referencias": [
+    "EPH.2.8"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-19",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-002",
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Todas as fontes leem a passagem como afirmação de que a salvação vem da graça de Deus e não das obras humanas.",
+      "Crisóstomo, a Confissão de Westminster, a Segunda Confissão de Londres, Wesley e Wigglesworth afirmam, cada um a seu modo, que a própria fé é dom de Deus."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "PEN-002",
+      "PEN-003",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Sobre a que se refere a expressão e isso não vem de vós, Crisóstomo e Hodge a aplicam à fé, Wesley a toda a frase sobre ser salvo pela fé, e Hodge registra que Calvino e a maioria dos modernos a aplicam à salvação.",
+      "Sobre a participação humana, Crisóstomo fala da nossa parte na obra para preservar o livre-arbítrio e Cirilo diz que as pessoas devem preparar-se para receber a graça, enquanto a Segunda Confissão de Londres descreve a criatura como totalmente passiva no chamado eficaz."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "ORT-002",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ezequiel-36-26",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Ezequiel 36.26: o coração de pedra e o coração de carne",
+   "tema": null,
+   "referencias": [
+    "EZK.36.26"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-18",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, a Fórmula de Concórdia, a Confissão de Westminster, Wesley e a Segunda Confissão de Londres atribuem a renovação do coração à ação de Deus, seja pela graça de Cristo, seja pelo Espírito Santo.",
+      "Ezequiel 36.26 aparece ligado a outros textos de renovação, como o Salmo 51 em Haydock e na Fórmula de Concórdia, Deuteronômio 30 na Fórmula e em Wesley, e 2 Coríntios 5.17 em Haydock e na Fórmula."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O versículo aparece em enquadramentos diferentes: a Fórmula de Concórdia o usa na doutrina do livre-arbítrio, Westminster e Londres na vocação eficaz dos predestinados à vida, Wesley na descrição do coração santificado e Haydock na leitura histórica do retorno do exílio e na oração penitencial de Davi.",
+      "As ênfases sobre a pessoa humana variam: a Fórmula de Concórdia ressalta que antes da conversão ela não coopera mais que uma pedra ou um tronco, as confissões de Westminster e de Londres destacam que os chamados vêm com toda a liberdade, tornados dispostos pela graça, e Wesley fala de um coração que se molda à vontade de Deus como a cera ao selo."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "jeremias-31-33",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Jeremias 31.33: a lei escrita no coração",
+   "tema": null,
+   "referencias": [
+    "JER.31.33"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-16",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, Hodge e Wesley relacionam a promessa de Jeremias 31.33 ao tempo de Cristo e do evangelho: Haydock a aplica aos discípulos de Cristo, Hodge a lê como predição da nova dispensação e Wesley vê nela a diferença entre a lei e o evangelho.",
+      "A Apologia da Confissão de Augsburgo, a Confissão de Westminster e Wesley associam a lei escrita no coração a uma ação divina que renova o interior e capacita para a obediência: a fé que traz o Espírito Santo, o Espírito de Cristo que capacita a vontade e a graça regeneradora que muda o coração."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "As fontes dão ênfases diferentes à relação entre os tempos: a Confissão de Westminster fala de uma só aliança da graça sob várias dispensações e Wesley diz que os salvos no tempo da lei o foram por essa nova aliança, enquanto Haydock concentra sua nota no serviço ainda imperfeito do povo depois do retorno e aplica a promessa aos discípulos de Cristo.",
+      "Também varia o que se destaca em escrever a lei no coração: Hodge enfatiza o conhecimento interior, e não apenas exterior, da lei, ao passo que a Apologia descreve movimentos do coração como temer, amar e invocar a Deus e insiste em que esse cumprimento incipiente da lei não justifica."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "romanos-3-25",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Romanos 3.25: Cristo exposto como propiciação",
+   "tema": null,
+   "referencias": [
+    "ROM.3.25"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-15",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": "quadrangular",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Crisóstomo, a Apologia da Confissão de Augsburgo, Hodge, Wesley, Bunyan e a Declaração de Fé quadrangular associam a propiciação ou o perdão dos pecados ao sangue e à morte de Cristo.",
+      "Crisóstomo, a Apologia, a Confissão de Westminster, a Segunda Confissão de Londres e a Declaração quadrangular afirmam que a justificação vem pela fé, e não pelas obras ou por méritos e justiça próprios."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "PEN-003",
+      "PRE-003",
+      "PRE-005",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Hodge e Wesley leem a declaração da justiça como manifestação da justiça de Deus que pune o pecado e precisa ser satisfeita, enquanto Crisóstomo a explica como Deus ser justo e também tornar justos os pecadores.",
+      "Sobre os pecados anteriores, Crisóstomo entende o termo no sentido de amortecimento, como de um corpo paralisado, Hodge o lê como perdão dos pecados que parecem ser os cometidos antes da vinda de Cristo, e Wesley o refere aos pecados anteriores ao momento em que os fiéis passaram a crer."
+     ],
+     "fontes": [
+      "COM-008",
+      "ORT-001",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "isaias-53-5",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Isaías 53.5: ferido por nossas transgressões",
+   "tema": null,
+   "referencias": [
+    "ISA.53.5"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-14",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-002",
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "As tradições com material leem Isaías 53 como referido aos sofrimentos de Cristo por causa dos pecados humanos, seja em comentários, como os de Haydock, Crisóstomo, Hodge e Wesley, seja em documentos oficiais, como a Confissão de Mogila e a Fórmula de Concórdia.",
+      "Várias fontes descrevem essa morte com a linguagem de satisfação, expiação ou pagamento: Haydock fala de satisfazer por nossos crimes, Westminster de satisfação à justiça do Pai, a Fórmula de Concórdia de expiar e pagar os pecados, Wesley de expiação e a Declaração Quadrangular de pagar plenamente a pena."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006",
+      "PEN-002",
+      "PEN-003",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Quanto à cura do versículo, Wesley a lê como salvação dos pecados, Haydock a associa ao escrito de dívida pregado na cruz, e Wigglesworth fala também de uma cura recebida pela fé aqui e agora, ligada às enfermidades e doenças que Cristo tomou sobre si.",
+      "Os documentos luteranos e os padrões de Westminster ligam a passagem à remissão e à justificação recebidas gratuitamente pela fé, enquanto a Confissão de Mogila destaca o ofício sacerdotal de Cristo e seu sofrimento segundo a natureza humana, e Haydock une a morte de Cristo por todos à Igreja que ele estabeleceu."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-006",
+      "PEN-002",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hebreus-7-24",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Hebreus 7.24: o sacerdócio que não passa",
+   "tema": null,
+   "referencias": [
+    "HEB.7.24"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-13",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O comentário de Haydock, o Catecismo Maior de Westminster, as notas de Wesley e o Catecismo Batista apresentam o sacerdócio ou a mediação de Cristo como permanente, seja por ele ser sacerdote sem sucessor, seja por continuar a ser Deus e homem para sempre.",
+      "Haydock, a Confissão de Westminster, Charles Hodge e o Catecismo Batista destacam que o sacrifício de Cristo foi oferecido uma só vez."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Para Haydock, Cristo continua a oficiar por meio dos sacerdotes do Novo Testamento e a Eucaristia é complemento dos antigos sacrifícios, enquanto a Confissão de Westminster entende a Ceia não como sacrifício real, mas como comemoração da oferta única da cruz e oblação espiritual de louvor.",
+      "Os enfoques também diferem: Hodge e os documentos batistas ligam a vida perpétua de Cristo sobretudo à sua intercessão contínua pelos crentes, ao passo que Haydock a liga à sua cooperação contínua com os ministros do Novo Testamento."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "salmos-110-4",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Salmos 110.4: sacerdote para sempre segundo a ordem de Melquisedeque",
+   "tema": null,
+   "referencias": [
+    "PSA.110.4"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-12",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Tanto Haydock quanto Wesley leem Salmos 110.4 como referido ao sacerdócio de Cristo e ligam o versículo à Epístola aos Hebreus.",
+      "Os dois autores destacam a firmeza e a permanência desse sacerdócio: Haydock fala de um sacerdócio confirmado por juramento e sem sucessor, e Wesley de um sacerdócio tornado seguro e irrevogável."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock relaciona o pão e o vinho de Melquisedeque ao sacrifício de Cristo continuado na Missa, enquanto Wesley, nas notas citadas, situa o versículo entre os três ofícios de Cristo, rei, profeta e sacerdote, sem tratar do pão e do vinho."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "genesis-17-7",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Gênesis 17.7: a aliança perpétua com Abraão e sua descendência",
+   "tema": null,
+   "referencias": [
+    "GEN.17.7"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-10",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock e Wesley leem a promessa feita a Abraão como alcançando também uma descendência espiritual: Wesley o afirma diretamente, e Haydock o apresenta como uma das leituras possíveis da promessa.",
+      "Wesley e o Catecismo Maior de Westminster veem continuidade entre a aliança feita com Abraão e Israel e a relação de Deus com o seu povo de todos os tempos."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Sobre o caráter perpétuo da aliança, Haydock entende que ela duraria enquanto os descendentes permanecessem obedientes, ao passo que Wesley a descreve como não sujeita a alteração ou revogação e eterna em sentido evangélico.",
+      "Nos comentários de Haydock e Wesley a ênfase recai sobre a duração e o alcance da aliança, enquanto a Fórmula de Concórdia recorre a Gênesis 17.7 sobretudo para tratar do batismo dos filhos de cristãos."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "LUT-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "deuteronomio-6-4",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Deuteronômio 6.4: o Senhor é um só",
+   "tema": null,
+   "referencias": [
+    "DEU.6.4"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-08",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-001",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "REF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Catecismo Romano, a Confissão Ortodoxa, os catecismos de Westminster e Batista e as notas de Wesley afirmam que há um só Deus, e vários deles ligam essa unidade diretamente ao Ouve, Israel.",
+      "O Catecismo Maior de Lutero, o Catecismo de Heidelberg, os catecismos de Westminster e Batista e as notas de Wesley ligam o Deus único a uma resposta de todo o coração, com confiança, amor, temor e adoração dirigidos só a ele."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-008",
+      "LUT-003",
+      "ORT-006",
+      "PRE-003",
+      "REF-001"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "As fontes diferem na ênfase: o Catecismo Romano e a Confissão Ortodoxa leem o versículo sobretudo como base da confissão de um só Deus em três pessoas, enquanto o Catecismo Maior de Lutero concentra a explicação do primeiro mandamento na confiança do coração, que é o que faz de algo o Deus de alguém.",
+      "Na fundamentação, o Catecismo Romano soma aos textos bíblicos o argumento de que a perfeição suprema não pode estar em vários, ao passo que as confissões de Westminster e de Londres expõem a unidade de Deus por meio de uma extensa lista de atributos."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "LUT-001",
+      "ORT-006",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "exodo-20-4",
+   "versao": 1,
+   "tipo": "passagem",
+   "titulo": "Êxodo 20.4: imagens, representações e culto",
+   "tema": null,
+   "referencias": [
+    "EXO.20.4"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-06",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "REF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Haydock, os Padrões de Westminster, Wesley e o Catecismo Batista entendem que o mandamento proíbe curvar-se diante de imagens ou adorá-las e servi-las.",
+      "A Confissão de Westminster e a Segunda Confissão Batista de Londres usam formulação quase idêntica para dizer que o modo aceitável de adorar a Deus é instituído por ele e limitado à sua vontade revelada."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Para Haydock, imagens e representações, mesmo no santuário, são autorizadas quando não recebem honra divina, com a distinção entre latria e dulia, enquanto as Confissões de Westminster e de Londres afirmam que Deus não deve ser adorado sob quaisquer representações visíveis.",
+      "Wesley diz, como Haydock, que a proibição de fazer imagens não é universal, mas visa a adoração, e afirma, em linha com as confissões reformada e batista, que o Deus invisível não pode ser representado por imagem visível."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "segunda-vinda",
+   "versao": 1,
+   "tipo": "tema",
+   "titulo": "A segunda vinda de Cristo",
+   "tema": "Segunda vinda de Cristo",
+   "referencias": [
+    "MAT.24.30",
+    "1TH.4.16",
+    "REV.20.4",
+    "2PE.3.10",
+    "ACT.1.11"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-04",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-002",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Fontes católicas, ortodoxas, luteranas, presbiterianas e batistas apresentam a segunda vinda como volta gloriosa de Cristo para julgar, e várias delas leem Atos 1.11 como promessa de que ele virá do mesmo modo como subiu.",
+      "Haydock, Crisóstomo e, com um talvez, Wesley identificam o sinal do Filho do Homem de Mateus 24.30 com a cruz que aparecerá em glória."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006",
+      "PRE-003",
+      "PRE-005",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Sobre o corpo com que Cristo voltará, Haydock e a Confissão Ortodoxa o ligam à presença na Eucaristia, o Catálogo de Testemunhos luterano enfatiza a comunicação da majestade divina à natureza humana na glória, e o Catecismo Maior de Westminster sublinha que Cristo permanece nos céus até a segunda vinda.",
+      "Quanto à criação, Crisóstomo fala de um sol escurecido, não destruído, numa criação transfigurada, enquanto Haydock fala do mundo destruído pelo fogo e Wesley da terra queimada, apontando possíveis meios físicos para isso."
+     ],
+     "fontes": [
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "vida-apos-a-morte",
+   "versao": 1,
+   "tipo": "tema",
+   "titulo": "Vida após a morte e purgatório",
+   "tema": "Vida após a morte e purgatório",
+   "referencias": [
+    "1CO.3.15",
+    "MAT.12.32",
+    "LUK.23.43",
+    "PHP.1.23",
+    "2CO.5.8"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-04",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "As fontes das tradições com material afirmam que a alma sobrevive à morte do corpo e descrevem os justos junto de Cristo ou de Deus depois da morte, e as fontes católicas, ortodoxas, presbiterianas e metodistas recorrem para isso à promessa ao ladrão em Lucas 23.43.",
+      "Haydock, Crisóstomo e a Confissão Ortodoxa associam a oração pelos falecidos ao sacrifício eucarístico, que Haydock chama de missa e as fontes ortodoxas de Mistérios ou sacrifício incruento."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "ORT-006",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Quanto ao estado depois da morte, o Catecismo Romano fala de purificação no fogo do purgatório para quem tem algo a expiar, a Confissão Ortodoxa ora pelos falecidos para que sejam perdoados mas não para livrá-los de uma pena temporária, e as confissões de Westminster e de Londres reconhecem apenas dois lugares para as almas separadas do corpo.",
+      "Sobre 1 Coríntios 3.15, Haydock entende o fogo que salva como o purgatório, segundo os Padres que ele cita, e registra que Crisóstomo e outros Padres gregos aplicavam o texto aos que subsistem nas chamas do inferno, enquanto Hodge vê ali o juízo do último dia e a salvação com dificuldade de ministros que juntam ao fundamento ensinamentos que não resistem a esse juízo."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "ORT-006",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ministerio-e-ordenacao",
+   "versao": 1,
+   "tipo": "tema",
+   "titulo": "Ministério e ordenação nas tradições cristãs",
+   "tema": "Ministério e ordenação",
+   "referencias": [
+    "1TI.3.1",
+    "ACT.6.6",
+    "1PE.2.9",
+    "HEB.5.1",
+    "2TI.1.6"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-04",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-001",
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-001",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Concílio de Trento e a Confissão Ortodoxa de Pedro Mogila ligam a ordenação à imposição das mãos e a tratam, respectivamente, como sacramento e como Mistério ligado aos apóstolos.",
+      "Várias fontes recorrem às cartas a Timóteo para pedir cuidado na escolha dos ministros: o Catecismo Romano para os diáconos, a Tábua de Deveres luterana para bispos e pastores, e a Confissão de Mogila, que lembra 1 Timóteo 5.22 e pede exame prévio dos candidatos."
+     ],
+     "fontes": [
+      "CAT-001",
+      "CAT-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Trento e o Catecismo Romano ensinam que a Ordem é sacramento que imprime caráter e confere o poder de consagrar a Eucaristia, enquanto Hodge descreve os ministros como despenseiros das verdades reveladas, com autoridade apenas ministerial e sem poder sobrenatural.",
+      "Quanto ao sacerdócio comum, Trento rejeita que todos os cristãos indistintamente sejam sacerdotes do Novo Testamento, a Confissão de Mogila distingue o sacerdócio espiritual de todos do sacerdócio sacramental, e o Livro de Concórdia cita 1 Pedro 2.9 para afirmar que as chaves foram dadas à Igreja."
+     ],
+     "fontes": [
+      "CAT-001",
+      "CAT-002",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-006",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "lei-e-evangelho",
+   "versao": 1,
+   "tipo": "tema",
+   "titulo": "Lei e Evangelho",
+   "tema": "Lei e Evangelho",
+   "referencias": [
+    "EXO.20.3",
+    "MAT.5.17",
+    "ROM.3.20",
+    "GAL.3.24",
+    "ROM.13.10"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-04",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "As fontes católica, ortodoxa, luterana, presbiteriana, metodista e batista associam, cada uma a seu modo, a lei ao conhecimento ou à convicção do pecado.",
+      "Haydock, Crisóstomo, Cirilo de Alexandria, Lutero e a Fórmula de Concórdia leem Gálatas 3.24 como a lei que conduz a Cristo, à maneira de um pedagogo ou mestre-escola."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-003",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-002",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Sobre fé e obras na justificação, Haydock entende que as obras não justificam sem a fé e a graça e que a fé que salva deve operar pela caridade, a Fórmula de Concórdia fala de justificação por pura graça, sem mérito algum, e Hodge descreve justificar como ato judicial de declarar justo.",
+      "Quanto à lei na vida do cristão, a Confissão de Westminster e a Segunda Confissão Batista de Londres destacam seu papel como regra de vida para os crentes, enquanto a Fórmula de Concórdia põe a ênfase em distinguir o ofício da Lei, de reprovar o pecado, do ofício do Evangelho, de consolar os aterrorizados."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "LUT-003",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "santificacao",
+   "versao": 1,
+   "tipo": "tema",
+   "titulo": "Santificação nas tradições cristãs",
+   "tema": "Santificação",
+   "referencias": [
+    "1TH.4.3",
+    "HEB.12.14",
+    "1TH.5.23",
+    "ROM.6.22",
+    "2CO.7.1"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-04",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Catecismo Romano, Crisóstomo e Wesley associam a santificação de 1 Tessalonicenses 4.3 à abstenção da fornicação.",
+      "A santidade sem a qual ninguém verá o Senhor, de Hebreus 12.14, aparece no comentário de Haydock, na homilia de Crisóstomo e nas confissões de Westminster e de Londres."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "As confissões de Westminster e de Londres dizem que a santificação permanece imperfeita nesta vida, enquanto Wesley lê inteiramente como inteira e perfeitamente e exorta a aperfeiçoar a santidade, levando-a ao mais alto grau.",
+      "Ao falar da vida eterna em Romanos 6.22, Haydock a chama de fruto e recompensa dos que obedecem a Deus, enquanto Hodge diz que a santidade é dom de Deus, coroada gratuitamente com a vida eterna, e exclui do evangelho toda ideia de mérito."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "oracao",
+   "versao": 1,
+   "tipo": "tema",
+   "titulo": "Oração: perseverança, Pai-Nosso e a ajuda do Espírito",
+   "tema": "Oração",
+   "referencias": [
+    "MAT.6.9",
+    "1TH.5.17",
+    "PHP.4.6",
+    "ROM.8.26",
+    "LUK.18.1"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-04",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Fontes católicas, ortodoxas, presbiterianas e metodistas ligam Lucas 18.1 e 1 Tessalonicenses 5.17 a uma oração perseverante: o Catecismo Romano pede assiduidade, Crisóstomo fala da perseverança nos mesmos pedidos, Hodge vê a oração como todo convívio com Deus e Wesley adverte contra o desânimo.",
+      "O Pai-Nosso aparece como modelo de oração no Catecismo Romano, que o chama a mais perfeita das fórmulas, no Catecismo Maior de Westminster, que o tem como regra especial, em Wesley, que o vê como forma perfeita e universal, e no Catecismo Batista, que explica suas petições."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "ORT-001",
+      "ORT-006",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Sobre Romanos 8.26, o Catecismo Romano chama o Espírito Santo de autor da oração que ajuda nossa fraqueza, Hodge descreve o Espírito que habita no crente numa ação conjunta, sem que ele mesmo ore, e Crisóstomo lê o texto como referente ao dom de oração e ao homem espiritual, não diretamente ao Consolador.",
+      "Com redação quase igual, a Confissão de Westminster chama a oração de parte do culto religioso e pede língua conhecida se for vocal, enquanto a Segunda Confissão Batista de Londres fala de culto natural e de língua conhecida quando se ora com outros."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "ORT-001",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "predestinacao",
+   "versao": 1,
+   "tipo": "tema",
+   "titulo": "Predestinação e livre-arbítrio",
+   "tema": "Predestinação e livre-arbítrio",
+   "referencias": [
+    "ROM.8.29",
+    "EPH.1.4",
+    "JHN.6.44",
+    "1TI.2.4",
+    "PHP.2.12"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-04",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O comentário de Haydock, Crisóstomo, a Fórmula de Concórdia, a Confissão de Westminster, Wesley e a Segunda Confissão de Londres ligam a predestinação de Romanos 8.29 e Efésios 1.4 ao propósito de Deus em Cristo, voltado para a adoção ou a conformidade com o Filho.",
+      "O comentário de Haydock, a Fórmula de Concórdia, a Confissão de Westminster e a Segunda Confissão de Londres afirmam que a escolha divina não se baseia em méritos humanos."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Wesley lê Efésios 1.4 como presciência dos que creriam e Mogila descreve a presciência como simples conhecimento sem determinação, enquanto Westminster exclui a fé prevista como causa da eleição e Hodge vê na presciência um ato de escolha.",
+      "Haydock fala de uma vontade divina que oferece graças a todos, Crisóstomo de uma vontade primeira de que os pecadores não pereçam e a Fórmula de Concórdia de Cristo querendo seriamente que todos venham, ao passo que Westminster afirma que só os eleitos são chamados eficazmente."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "graca",
+   "versao": 1,
+   "tipo": "tema",
+   "titulo": "A graça nas tradições cristãs",
+   "tema": "Graça",
+   "referencias": [
+    "TIT.2.11",
+    "ROM.11.6",
+    "2CO.12.9",
+    "JHN.1.16",
+    "EPH.2.8"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-04",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-001",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001",
+      "PUR-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Em fontes de todas as tradições com material, a graça aparece como dom que não se obtém por mérito anterior: Trento diz que nada do que precede a justificação merece essa graça, Crisóstomo e Wesley contrapõem favor e pagamento de dívida, e a Apologia luterana, o Catecismo Maior de Westminster e a Segunda Confissão de Londres apresentam a justificação como gratuita.",
+      "Crisóstomo, Wesley, o Catecismo Maior de Westminster e a Segunda Confissão de Londres tratam a fé, de algum modo, como dom de Deus, embora Hodge registre que a referência exata do dom em Efésios 2.8 é ponto de dúvida entre os intérpretes."
+     ],
+     "fontes": [
+      "CAT-001",
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Quanto ao mérito, o comentário de Haydock afirma que as obras feitas em estado de graça, cooperando com ela, merecem recompensa no céu, enquanto a Confissão de Augsburgo e sua Apologia ensinam que a fé opõe à ira de Deus somente Cristo mediador, não méritos próprios, e que confiar em merecer a graça pelas obras despreza o mérito de Cristo.",
+      "Trento nega que se diga perdoado quem descansa só na confiança e na certeza do perdão, ao passo que a Confissão de Augsburgo ensina que a consciência encontra paz pela fé quando tem por certo que, por causa de Cristo, Deus lhe é favorável."
+     ],
+     "fontes": [
+      "CAT-001",
+      "CNF-001",
+      "COM-002",
+      "LUT-003",
+      "ORT-001",
+      "PRE-003"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "encarnacao",
+   "versao": 1,
+   "tipo": "tema",
+   "titulo": "Encarnação e divindade de Cristo",
+   "tema": "Encarnação e divindade de Cristo",
+   "referencias": [
+    "JHN.1.14",
+    "PHP.2.6",
+    "COL.2.9",
+    "HEB.1.3",
+    "1TI.3.16"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-04",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": true,
+     "afirmacoes": [],
+     "fontes": []
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Catecismo Romano, a Confissão Ortodoxa, a Confissão de Westminster e a Segunda Confissão Batista de Londres descrevem Cristo como uma só pessoa em duas naturezas que conservam suas propriedades, sem confusão nem conversão de uma na outra.",
+      "Haydock, Crisóstomo e Wesley leem Filipenses 2.6 no sentido de que a igualdade com Deus pertencia ao Filho por natureza e desde a eternidade, sem ser usurpação."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006",
+      "PRE-003"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "A Fórmula de Concórdia fala da natureza humana de Cristo elevada à majestade divina, de modo que agora também como homem ele está presente com todas as criaturas, enquanto a Confissão de Westminster e a Segunda Confissão de Londres descrevem essa natureza, unida à divina, como santificada e ungida com o Espírito acima de medida para o ofício de mediador.",
+      "Em 1 Timóteo 3.16, Charles Hodge admite que Espírito pode designar ali a natureza divina de Cristo, cujas manifestações sustentam suas reivindicações, ao passo que Wesley lê justificado pelo Espírito como a declaração pública de que ele é Filho de Deus pela ressurreição."
+     ],
+     "fontes": [
+      "CNF-001",
+      "COM-008",
+      "LUT-003",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "espirito-santo",
+   "versao": 1,
+   "tipo": "tema",
+   "titulo": "O Espírito Santo nas tradições cristãs",
+   "tema": "Espírito Santo",
+   "referencias": [
+    "JHN.14.16",
+    "ACT.1.8",
+    "ROM.8.9",
+    "GAL.5.22",
+    "1CO.6.19"
+   ],
+   "resumo": null,
+   "publicado_em": "2026-10-04",
+   "atribuicoes": [
+    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
+   ],
+   "licencas_derivadas": [],
+   "secoes": [
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "catolica",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CAT-002",
+      "COM-002"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "ortodoxa",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "ORT-001",
+      "ORT-006"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "luterana",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-003",
+      "LUT-003"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "reformada",
+     "subtradicao_id": "presbiteriana",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PRE-003",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "metodista",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "COM-008"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "batista",
+     "subtradicao_id": "particulares",
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "CNF-001"
+     ]
+    },
+    {
+     "tipo": "tradicao",
+     "tradicao_id": "pentecostal",
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [],
+     "fontes": [
+      "PEN-002",
+      "PEN-003"
+     ]
+    },
+    {
+     "tipo": "concordancias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "O Catecismo Romano, a Confissão Ortodoxa e Charles Hodge confessam o Espírito Santo como Deus e pessoa distinta na Trindade.",
+      "A imagem do templo em 1 Coríntios 6.19 aparece no Catecismo Romano e em Wesley como indicação da divindade do Espírito, e em Hodge como fundamento do caráter sagrado do corpo do crente."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-003",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006",
+      "PEN-002",
+      "PRE-005"
+     ]
+    },
+    {
+     "tipo": "divergencias",
+     "tradicao_id": null,
+     "subtradicao_id": null,
+     "sem_material": false,
+     "afirmacoes": [
+      "Sobre a procedência, o Catecismo Romano ensina que o Espírito procede do Pai e do Filho como de um só princípio, a Confissão Ortodoxa afirma que o Filho e o Espírito têm origem imediata e igualmente do Pai, e Hodge vê no filioque a afirmação da igualdade do Filho com o Pai.",
+      "Crisóstomo entende que o se de fato de Romanos 8.9 não exprime dúvida, enquanto Hodge prefere o sentido condicional comum, que faz da habitação do Espírito o teste do caráter real dos leitores."
+     ],
+     "fontes": [
+      "CAT-002",
+      "CNF-001",
+      "COM-002",
+      "COM-003",
+      "COM-008",
+      "LUT-003",
+      "ORT-001",
+      "ORT-006",
+      "PEN-003",
+      "PRE-003",
+      "PRE-005"
+     ]
+    }
+   ]
+  },
+  {
    "slug": "isaias-7-14",
    "versao": 1,
    "tipo": "passagem",
@@ -4711,133 +10989,7 @@
      ]
     }
    ]
-  },
-  {
-   "slug": "romanos-9-16",
-   "versao": 2,
-   "tipo": "passagem",
-   "titulo": "Romanos 9.16: a misericórdia de Deus e o querer humano",
-   "tema": null,
-   "referencias": [
-    "ROM.9.16"
-   ],
-   "resumo": null,
-   "publicado_em": "2026-09-30",
-   "atribuicoes": [
-    "“Explanatory Notes upon the Old and New Testament”, John Wesley. Domínio público; editorial CC BY 4.0. Fonte: https://github.com/wilsonpruitt/kjv-wesley/tree/5ffe8fcad6c78b0a6191c5b6b3ce70b42ad8bc69"
-   ],
-   "licencas_derivadas": [],
-   "secoes": [
-    {
-     "tipo": "tradicao",
-     "tradicao_id": "catolica",
-     "subtradicao_id": null,
-     "sem_material": false,
-     "afirmacoes": [],
-     "fontes": [
-      "COM-002"
-     ]
-    },
-    {
-     "tipo": "tradicao",
-     "tradicao_id": "ortodoxa",
-     "subtradicao_id": null,
-     "sem_material": false,
-     "afirmacoes": [],
-     "fontes": [
-      "ORT-001"
-     ]
-    },
-    {
-     "tipo": "tradicao",
-     "tradicao_id": "luterana",
-     "subtradicao_id": null,
-     "sem_material": false,
-     "afirmacoes": [],
-     "fontes": [
-      "COM-003",
-      "LUT-003"
-     ]
-    },
-    {
-     "tipo": "tradicao",
-     "tradicao_id": "reformada",
-     "subtradicao_id": "presbiteriana",
-     "sem_material": false,
-     "afirmacoes": [],
-     "fontes": [
-      "PRE-003",
-      "PRE-005"
-     ]
-    },
-    {
-     "tipo": "tradicao",
-     "tradicao_id": "metodista",
-     "subtradicao_id": null,
-     "sem_material": false,
-     "afirmacoes": [],
-     "fontes": [
-      "COM-008"
-     ]
-    },
-    {
-     "tipo": "tradicao",
-     "tradicao_id": "batista",
-     "subtradicao_id": "particulares",
-     "sem_material": false,
-     "afirmacoes": [],
-     "fontes": [
-      "CNF-001"
-     ]
-    },
-    {
-     "tipo": "tradicao",
-     "tradicao_id": "pentecostal",
-     "subtradicao_id": null,
-     "sem_material": true,
-     "afirmacoes": [],
-     "fontes": []
-    },
-    {
-     "tipo": "concordancias",
-     "tradicao_id": null,
-     "subtradicao_id": null,
-     "sem_material": false,
-     "afirmacoes": [
-      "Haydock, a Fórmula de Concórdia, Hodge, Wesley e a Segunda Confissão de Londres convergem em atribuir a salvação ou o favor divino à misericórdia e à graça de Deus, e não à vontade, às obras ou aos méritos humanos.",
-      "Crisóstomo e Hodge leem o versículo junto com o caso do faraó, como expressão de que Deus usa de misericórdia com uns e não com outros."
-     ],
-     "fontes": [
-      "CNF-001",
-      "COM-002",
-      "COM-008",
-      "LUT-003",
-      "ORT-001",
-      "PRE-003",
-      "PRE-005"
-     ]
-    },
-    {
-     "tipo": "divergencias",
-     "tradicao_id": null,
-     "subtradicao_id": null,
-     "sem_material": false,
-     "afirmacoes": [
-      "As fontes diferem quanto ao que o versículo tem em vista: Haydock fala do chamado e da predestinação dos que Deus decretou salvar, Hodge da admissão no reino do Messias, Wesley da bênção estendida aos filhos espirituais de Abraão e Crisóstomo do episódio em que, entre os que pecaram, uns foram poupados e outros punidos.",
-      "Crisóstomo põe o acento em que não cabe ao ser humano sondar quem é digno do amor de Deus, cuja presciência está acima da razão, enquanto Hodge e a Confissão de Westminster explicitam que o fundamento da escolha está no beneplácito de Deus, sem previsão de fé ou de boas obras."
-     ],
-     "fontes": [
-      "CNF-001",
-      "COM-002",
-      "COM-008",
-      "LUT-003",
-      "ORT-001",
-      "PRE-003",
-      "PRE-005"
-     ]
-    }
-   ]
   }
  ],
- "gerado_em": "2026-10-04"
+ "gerado_em": "2026-11-22"
 }
